@@ -46,7 +46,7 @@ export default {
 								<h5
 									class="text-primary-dark dark:text-primary-light text-xl"
 								>
-									What project are you looking for?
+									Can i help you?
 								</h5>
 								<button
 									class="px-4 text-primary-dark dark:text-primary-light"
@@ -68,30 +68,6 @@ export default {
 										inputType="email"
 									/>
 
-									<div class="mt-6 mb-4">
-										<label
-											class="block mb-2 text-lg text-primary-dark dark:text-primary-light"
-											for="project"
-											>Project Type</label
-										>
-										<select
-											class="w-full px-5 py-3 border-1 border-gray-200 dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
-											id="project"
-											name="project"
-											type="text"
-											required=""
-											aria-label="Project Category"
-										>
-											<option
-												v-for="category in categories"
-												:key="category.id"
-												:value="category.value"
-											>
-												{{ category.name }}
-											</option>
-										</select>
-									</div>
-
 									<FormTextarea
 										label="Details"
 										textareaIdentifier="details"
@@ -110,12 +86,7 @@ export default {
 							<div
 								class="modal-footer mt-2 sm:mt-0 py-5 px-8 border0-t text-right"
 							>
-								<Button
-									title="Close"
-									class="px-4 sm:px-6 py-2 bg-gray-600 text-primary-light hover:bg-ternary-dark dark:bg-gray-200 dark:text-secondary-dark dark:hover:bg-primary-light rounded-md focus:ring-1 focus:ring-indigo-900 duration-500"
-									@click="showModal()"
-									aria-label="Close Modal"
-								/>
+								
 							</div>
 						</div>
 					</div>
