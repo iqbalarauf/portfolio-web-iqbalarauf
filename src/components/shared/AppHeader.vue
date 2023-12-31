@@ -35,8 +35,8 @@ export default {
 				},
 				{
 					id: 4,
-					value: 'branding',
-					name: 'Branding & Anim',
+					value: 'writing',
+					name: 'Journalist and Creative Writing',
 				},
 			],
 		};

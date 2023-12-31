@@ -13,17 +13,17 @@ export default {
 			contacts: [
 				{
 					id: 1,
-					name: 'Your Address, Your City, Your Country',
+					name: 'Bandung, West Java, Indonesia',
 					icon: 'map-pin',
 				},
 				{
 					id: 2,
-					name: 'email@domain.com',
+					name: 'iqbalarauf@outlook.co.id',
 					icon: 'mail',
 				},
 				{
 					id: 3,
-					name: '555 8888 888',
+					name: '(Contact Us)',
 					icon: 'phone',
 				},
 			],
