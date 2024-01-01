@@ -7,7 +7,7 @@ const routes = [
 		name: 'Home',
 		component: Home,
 		meta: {
-			title: 'IqbalARauf Portfolio',
+			title: 'Hi, This Is IqbalARauf',
 		},
 	},
 	{
@@ -45,7 +45,7 @@ const routes = [
 				/* webpackChunkName: "projects" */ '../views/SingleProject.vue'
 			),
 		meta: {
-			title: 'IqbalARauf - Single Project',
+			title: 'IqbalARauf - LRB Project',
 		},
 	},
 	{
