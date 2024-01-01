@@ -14,6 +14,39 @@ export default {
 						'Drama yang ditayangkan di acara Berita televisi yang sudah diatur Adalah makanan sehari-hari yang Seperti emoticon saja Orang dewasa dengan muka sok tahu Berlagak serius membahas masalahnya Analisisnya yang tak tepat sasaran Seperti lawakan yang tak lucu Penggolongan hanya berdasarkan nilai Yang menentukan masa depan Sudah Usaha keras pun tak bisa mengubah apapun Kan ketidakadilan Sudah kita sadari Sejak dahulu Rasa sayang yang dulu aku remehkan Sekarang ku sangat menginginkannya Ku tidak ingin terus hidup kesepian Rasanya ingin dipeluk oleh seseorang Gadis yang ingin menjadi burung itu Dengan tegapnya berdiri diatas atap Apa sebenarnya dia ingin dipuji? Ataukah ini suatu pertanda Angket tentang ada tidaknya penindasan pun Sudah terlambat kalau baru sekarang Suara hati yang ingin didengarkan itu Tak kan sampai ke pusat badai Proses pergantian kepeminpinan Membuat petinggi menangis Tapi Masih banyak lagi hal-hal konyol yang belum terungkap Tak berbuat apapun Tetapi menunjuk orang Itulah aku Rasa sayang yang dulu aku remehkan Sebenarnya ku haus kasih sayang Rasa khawatir pun tidak aku hiraukan Kucari yang memperhatikanku Setiap saat Rasa sayang yang dulu aku remehkan Sekarang ku sangat menginginkannya Ku tidak ingin terus hidup kesepian Rasanya ingin dipeluk oleh seseorang Setiap saat',
 				},
 			],
+			socialSharingsHeading: 'My Social Media',
+				socialSharings: [
+					{
+						id: 1,
+						name: 'Twitter',
+						icon: 'twitter',
+						url: 'https://twitter.com/iqbalarauf',
+					},
+					{
+						id: 2,
+						name: 'Instagram',
+						icon: 'instagram',
+						url: 'https://instagram.com/iqbalarauf',
+					},
+					{
+						id: 3,
+						name: 'Github',
+						icon: 'github',
+						url: 'https://github.com/iqbalarauf',
+					},
+					{
+						id: 4,
+						name: 'LinkedIn',
+						icon: 'linkedin',
+						url: 'https://linkedin.com/in/iqbalarauf',
+					},
+					{
+						id: 5,
+						name: 'Youtube',
+						icon: 'youtube',
+						url: 'https://www.youtube.com/@ArgumentasiRealiti',
+					},
+				],
 		};
 	},
 };
@@ -28,6 +61,25 @@ export default {
 				class="rounded-xl w-96"
 				alt=""
 			/>
+				<p
+					class="text-left font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2 mt-5"
+				>
+					{{ socialSharingsHeading }}
+				</p>
+				<div class="flex items-center gap-3 mt-5">
+					<a
+						v-for="social in socialSharings"
+						:key="social.id"
+						:href="social.url"
+						target="__blank"
+						aria-label="Share Project"
+						class="bg-ternary-light dark:bg-ternary-dark text-gray-400 hover:text-primary-dark dark:hover:text-primary-light p-2 rounded-lg shadow-sm duration-500"
+						><i
+							:data-feather="social.icon"
+							class="w-4 lg:w-5 h-4 lg:h-5"
+						></i
+					></a>
+				</div>
 		</div>
 
 		<!-- About details -->
