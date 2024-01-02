@@ -16,7 +16,7 @@ export default {
 	data: () => {
 		return {
 			singleProjectHeader: {
-				singleProjectTitle: 'Argumentasi Realiti',
+				singleProjectTitle: 'Argumentasi Realiti Project',
 				singleProjectDate: 'Start from July 2019',
 				singleProjectTag: 'Creative Writing',
 			},
@@ -24,21 +24,21 @@ export default {
 				{
 					id: 1,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
+					img: require('@/assets/images/argmtsrealiti.png'),
 				},
 				{
 					id: 2,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/laroyba-classic/lrb-classic-2.png'),
+					img: require('@/assets/images/ui-project-1.jpg'),
 				},
 				{
 					id: 3,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/laroyba-classic/lrb-classic-3.png'),
+					img: require('@/assets/images/web-project-1.jpg'),
 				},
 			],
 			projectInfo: {
-				clientHeading: 'About Client',
+				clientHeading: 'About',
 				companyInfos: [
 					{
 						id: 1,
@@ -47,7 +47,7 @@ export default {
 					},
 					{
 						id: 2,
-						title: 'Services',
+						title: 'Category',
 						details: 'Creative Writing',
 					},
 					{

@@ -16,62 +16,59 @@ export default {
 	data: () => {
 		return {
 			singleProjectHeader: {
-				singleProjectTitle: 'Laroyba Classic Furniture Website',
-				singleProjectDate: 'November 2021',
-				singleProjectTag: 'Wordpress / Web Development',
+				singleProjectTitle: 'AksaraPers.com News',
+				singleProjectDate: 'January 2020 - December 2022',
+				singleProjectTag: 'Content Writing',
 			},
 			projectImages: [
 				{
 					id: 1,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
+					img: require('@/assets/images/aksarapers.png'),
 				},
 				{
 					id: 2,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/laroyba-classic/lrb-classic-2.png'),
+					img: require('@/assets/images/aksarapers2.png'),
 				},
 				{
 					id: 3,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/laroyba-classic/lrb-classic-3.png'),
+					img: require('@/assets/images/aksarapers3.png'),
 				},
 			],
 			projectInfo: {
-				clientHeading: 'About Client',
+				clientHeading: 'Experience',
 				companyInfos: [
 					{
 						id: 1,
-						title: 'Name',
-						details: 'Laroyba Furniture',
+						title: '2022',
+						details: 'President',
 					},
 					{
 						id: 2,
-						title: 'Services',
-						details: 'Web Development',
+						title: '2021',
+						details: 'Head of Departement Redactional',
 					},
 					{
 						id: 3,
-						title: 'Website',
-						details: 'https://laroyba.com',
+						title: '2020',
+						details: 'Intern Journalist',
 					},
 					{
 						id: 4,
-						title: 'Phone',
-						details: '-',
+						title: 'Website',
+						details: 'http://aksarapers.com',
 					},
 				],
-				objectivesHeading: 'Objective',
+				objectivesHeading: 'About AksaraPers',
 				objectivesDetails:
-					'Build a company profile website for a furniture company and a website containing a furniture product catalog using Wordpress.',
+					'Aksara merupakan salah satu Unit Kegiatan Mahasiswa (UKM) penalaran di Telkom University yang menggeluti bidang jurnalistik dan sastra.',
 				technologies: [
 					{
-						title: 'Tools & Technologies',
+						title: '',
 						techs: [
-							'HTML',
-							'CSS',
-							'PHP',
-							'Wordpress',
+							'',
 						],
 					},
 				],
@@ -80,17 +77,12 @@ export default {
 					{
 						id: 1,
 						details:
-							'The project was carried out for 6 months and was carried out individually. Creation includes design discussions regarding the business objectives of the website to be created. Then product photos are collected and edited according to request.',
+							'Saya telah menulis 15 berita/artikel selama 2 tahun kepengurusan sebagai staf intern (disebut sebagai jurnalis muda) dan pimpinan redaksi/kepala departemen redaksi. Berita yang saya tulis beragam, mulai dari berita dan isu kampus dan artikel featured dengan berbagai topik.',
 					},
 					{
 						id: 2,
 						details:
-							'The choice of WordPress as a CMS platform was considered to speed up the website creation process considering that website work was allocated for product work. The Laroyba.com website was published in September 2021 and underwent several changes before being finalized.',
-					},
-					{
-						id: 3,
-						details:
-							'Maintenance is carried out slowly to adjust to the situation while making a transition to a website that is more optimal and lightweight for the long term.',
+							'Saya bertanggung jawab sebagai pimpinan redaksi untuk buletin Daypost 12 dan majalah Podium 12 sebagai koordinator redaksi. Di edisi Podium & Daypost 11 berperan sebagai anggota redaksi',
 					},
 				],
 			},
@@ -118,7 +110,7 @@ export default {
 					{
 						id: 4,
 						title: 'AksaraPers News',
-						img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
+						img: require('@/assets/images/aksarapers.png'),
 						link: '/projects/argumentasirealiti',
 					},
 				],
