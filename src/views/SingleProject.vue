@@ -23,17 +23,17 @@ export default {
 			projectImages: [
 				{
 					id: 1,
-					title: 'Kabul Project Management UI',
+					title: 'Laroyba Classic Furniture Website',
 					img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
 				},
 				{
 					id: 2,
-					title: 'Kabul Project Management UI',
+					title: 'Laroyba Classic Furniture Website',
 					img: require('@/assets/images/laroyba-classic/lrb-classic-2.png'),
 				},
 				{
 					id: 3,
-					title: 'Kabul Project Management UI',
+					title: 'Laroyba Classic Furniture Website',
 					img: require('@/assets/images/laroyba-classic/lrb-classic-3.png'),
 				},
 			],

@@ -6,9 +6,9 @@ import feather from 'feather-icons';
 export default {
 	name: 'About',
 	components: {
-		AboutMe,
-		AboutCounter,
-	},
+    AboutMe,
+    AboutCounter,
+},
 	data: () => {
 		return {};
 	},

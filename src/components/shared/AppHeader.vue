@@ -159,6 +159,14 @@ export default {
 					@themeChanged="updateTheme"
 					class="ml-8 bg-primary-light dark:bg-ternary-dark px-3 py-2 shadow-sm rounded-xl cursor-pointer"
 				/>
+
+				<!-- Language Switcher -->
+				<router-link to="/">
+					<img
+					src="@/assets/images/lang/id.svg"
+					class="w-9 rounded-xl ml-8 bg-primary-light dark:bg-ternary-dark"
+				/>
+				</router-link>
 			</div>
 		</div>
 

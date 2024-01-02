@@ -58,9 +58,9 @@ export default {
 </script>
 
 <template>
-	<div class="block sm:flex sm:gap-10 mt-10 sm:mt-20">
+	<div class="block sm:flex sm:gap-5 mt-10 sm:mt-20">
 		<!-- About profile image -->
-		<div class="w-full sm:w-1/4 mb-7 sm:mb-0">
+		<div class="w-full sm:w-1/4 mb-7 sm:mb-0 sm:items-center">
 			<img
 				src="@/assets/images/profile.png"
 				class="rounded-xl w-96"
@@ -71,7 +71,7 @@ export default {
 				>
 					{{ socialSharingsHeading }}
 				</p>
-				<div class="flex items-center gap-3 mt-5">
+				<div class="flex items-center gap-5 mt-5">
 					<a
 						v-for="social in socialSharings"
 						:key="social.id"
