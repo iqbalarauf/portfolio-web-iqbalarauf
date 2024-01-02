@@ -18,7 +18,7 @@ export default {
 			<div v-for="item in relatedProject.relatedProjects" :key="item.id">
 				<img
 					:src="item.img"
-					class="rounded-xl cursor-pointer"
+					class="w-72 h-72 object-cover rounded-xl cursor-pointer shadow-lg sm:shadow-none"
 					:alt="item.title"
 				/>
 			</div>

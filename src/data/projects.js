@@ -6,21 +6,21 @@ const projects = [
 		id: 1,
 		title: 'LaRoyba Classic Furniture',
 		category: 'Web Application',
-		img: require('@/assets/images/web-project-2.jpg'),
+		img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
 		link: '/projects/lrb-project',
 	},
 	{
 		id: 2,
 		title: 'E-Government Report App',
 		category: 'Mobile Application',
-		img: require('@/assets/images/mobile-project-2.jpg'),
+		img: require('@/assets/images/report/first.png'),
 		link: '/projects/egov-report',
 	},
 	{
 		id: 3,
 		title: 'Social-Media Based Covid Tracker',
 		category: 'UI/UX Design',
-		img: require('@/assets/images/ui-project-1.jpg'),
+		img: require('@/assets/images/smct/first.png'),
 		link: '/projects/socmed-covid-tracker',
 	},
 	{
@@ -34,7 +34,7 @@ const projects = [
 		id: 5,
 		title: 'Aksarapers.com News',
 		category: 'Content Writing',
-		img: require('@/assets/images/mobile-project-1.jpg'),
+		img: require('@/assets/images/aksarapers.png'),
 		link: '/projects/aksarapers-news',
 	},
 	{

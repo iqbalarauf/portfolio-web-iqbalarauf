@@ -16,25 +16,25 @@ export default {
 	data: () => {
 		return {
 			singleProjectHeader: {
-				singleProjectTitle: 'Laroyba Classic Furniture Website',
-				singleProjectDate: 'November 2021',
-				singleProjectTag: 'Wordpress / Web Development',
+				singleProjectTitle: 'E-Government Report App',
+				singleProjectDate: 'June - August 2022',
+				singleProjectTag: 'Mobile Development',
 			},
 			projectImages: [
 				{
 					id: 1,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
+					img: require('@/assets/images/report/first.png'),
 				},
 				{
 					id: 2,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/laroyba-classic/lrb-classic-2.png'),
+					img: require('@/assets/images/report/second.png'),
 				},
 				{
 					id: 3,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/laroyba-classic/lrb-classic-3.png'),
+					img: require('@/assets/images/report/third.png'),
 				},
 			],
 			projectInfo: {
@@ -43,22 +43,17 @@ export default {
 					{
 						id: 1,
 						title: 'Name',
-						details: 'Laroyba Furniture',
+						details: 'Regency Government of Jepara',
 					},
 					{
 						id: 2,
 						title: 'Services',
-						details: 'Web Development',
+						details: 'Mobile Development',
 					},
 					{
 						id: 3,
 						title: 'Website',
-						details: 'https://laroyba.com',
-					},
-					{
-						id: 4,
-						title: 'Phone',
-						details: '-',
+						details: 'https://wadul.jepara.go.id',
 					},
 				],
 				objectivesHeading: 'Objective',
@@ -97,25 +92,29 @@ export default {
 			relatedProject: {
 				relatedProjectsHeading: 'Related Projects',
 				relatedProjects: [
-					{
+				{
 						id: 1,
-						title: 'Mobile UI',
-						img: require('@/assets/images/mobile-project-1.jpg'),
+						title: 'Laroyba Classic',
+						img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
+						link: '/projects/lrb-project',
 					},
 					{
 						id: 2,
-						title: 'Web Application',
-						img: require('@/assets/images/web-project-1.jpg'),
+						title: 'E-Government Report App',
+						img: require('@/assets/images/report/first.png'),
+						link: '/projects/egov-report',
 					},
 					{
 						id: 3,
-						title: 'UI Design',
-						img: require('@/assets/images/ui-project-2.jpg'),
+						title: 'Social-Media Based Covid Tracker',
+						img: require('@/assets/images/smct/first.png'),
+						link: '/projects/socmed-covid-tracker',
 					},
 					{
 						id: 4,
-						title: 'Kabul Mobile App UI',
-						img: require('@/assets/images/mobile-project-2.jpg'),
+						title: 'AksaraPers News',
+						img: require('@/assets/images/aksarapers.png'),
+						link: '/projects/argumentasirealiti',
 					},
 				],
 			},

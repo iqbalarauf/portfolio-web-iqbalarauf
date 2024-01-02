@@ -16,49 +16,39 @@ export default {
 	data: () => {
 		return {
 			singleProjectHeader: {
-				singleProjectTitle: 'Laroyba Classic Furniture Website',
-				singleProjectDate: 'November 2021',
-				singleProjectTag: 'Wordpress / Web Development',
+				singleProjectTitle: 'Social-Media Based Covid Tracker',
+				singleProjectDate: 'September 2021 - June 2022',
+				singleProjectTag: 'UI/UX Design, Mobile Development',
 			},
 			projectImages: [
 				{
 					id: 1,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
+					img: require('@/assets/images/smct/first.png'),
 				},
 				{
 					id: 2,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/laroyba-classic/lrb-classic-2.png'),
+					img: require('@/assets/images/smct/Class Diagram Covid.png'),
 				},
 				{
 					id: 3,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/laroyba-classic/lrb-classic-3.png'),
+					img: require('@/assets/images/smct/poster.png'),
 				},
 			],
 			projectInfo: {
-				clientHeading: 'About Client',
+				clientHeading: 'Information',
 				companyInfos: [
 					{
 						id: 1,
-						title: 'Name',
-						details: 'Laroyba Furniture',
+						title: 'College Subject',
+						details: 'UI/UX Design, Mobile Development, Scrum Project Simulation/2nd-3rd Years Project, Software Requirement',
 					},
 					{
 						id: 2,
-						title: 'Services',
-						details: 'Web Development',
-					},
-					{
-						id: 3,
-						title: 'Website',
-						details: 'https://laroyba.com',
-					},
-					{
-						id: 4,
-						title: 'Phone',
-						details: '-',
+						title: 'Spesific Task',
+						details: 'UI/UX Design, SRS, SDD, Mobile Development',
 					},
 				],
 				objectivesHeading: 'Objective',
@@ -68,10 +58,9 @@ export default {
 					{
 						title: 'Tools & Technologies',
 						techs: [
-							'HTML',
-							'CSS',
-							'PHP',
-							'Wordpress',
+							'Scrum',
+							'Flutter',
+							'Figma',
 						],
 					},
 				],
@@ -97,25 +86,29 @@ export default {
 			relatedProject: {
 				relatedProjectsHeading: 'Related Projects',
 				relatedProjects: [
-					{
+				{
 						id: 1,
-						title: 'Mobile UI',
-						img: require('@/assets/images/mobile-project-1.jpg'),
+						title: 'Laroyba Classic',
+						img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
+						link: '/projects/lrb-project',
 					},
 					{
 						id: 2,
-						title: 'Web Application',
-						img: require('@/assets/images/web-project-1.jpg'),
+						title: 'E-Government Report App',
+						img: require('@/assets/images/report/first.png'),
+						link: '/projects/egov-report',
 					},
 					{
 						id: 3,
-						title: 'UI Design',
-						img: require('@/assets/images/ui-project-2.jpg'),
+						title: 'Social-Media Based Covid Tracker',
+						img: require('@/assets/images/smct/first.png'),
+						link: '/projects/socmed-covid-tracker',
 					},
 					{
 						id: 4,
-						title: 'Kabul Mobile App UI',
-						img: require('@/assets/images/mobile-project-2.jpg'),
+						title: 'AksaraPers News',
+						img: require('@/assets/images/aksarapers.png'),
+						link: '/projects/argumentasirealiti',
 					},
 				],
 			},
