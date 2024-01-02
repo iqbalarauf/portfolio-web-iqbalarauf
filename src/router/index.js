@@ -35,17 +35,87 @@ const routes = [
 		},
 	},
 	{
-		path: '/projects/single-project',
+		path: '/projects/lrb-project',
 		name: 'Single Project',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
 		component: () =>
 			import(
-				/* webpackChunkName: "projects" */ '../views/SingleProject.vue'
+				/* webpackChunkName: "projects" */ '../views/Laroyba.vue'
 			),
 		meta: {
 			title: 'IqbalARauf - LRB Project',
+		},
+	},
+	{
+		path: '/projects/egov-report',
+		name: 'Second Project',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/Report.vue'
+			),
+		meta: {
+			title: 'IqbalARauf - E-Government Report App',
+		},
+	},
+	{
+		path: '/projects/superidol',
+		name: 'Second Project',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/Superidol.vue'
+			),
+		meta: {
+			title: 'IqbalARauf - Superidol App (JKT48 Replicate)',
+		},
+	},
+	{
+		path: '/projects/socmed-covid-tracker',
+		name: 'Second Project',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/CovidTracker.vue'
+			),
+		meta: {
+			title: 'IqbalARauf - Socmed Covid Tracker',
+		},
+	},
+	{
+		path: '/projects/aksarapers-news',
+		name: 'Second Project',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/AksaraPers.vue'
+			),
+		meta: {
+			title: 'IqbalARauf - AksaraPers.com News',
+		},
+	},
+	{
+		path: '/projects/argumentasirealiti',
+		name: 'ArgumentasiRealiti Project',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/ArgumentasiRealiti.vue'
+			),
+		meta: {
+			title: 'IqbalARauf - ArgumentasiRealiti Project',
 		},
 	},
 	{

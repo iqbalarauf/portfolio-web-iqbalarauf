@@ -32,7 +32,6 @@ export default {
 					>
 						<span>{{ info.title }}: </span>
 						<a
-							href="#"
 							:class="
 								info.title == 'Website' || info.title == 'Phone'
 									? 'hover:underline cursor-pointer'
