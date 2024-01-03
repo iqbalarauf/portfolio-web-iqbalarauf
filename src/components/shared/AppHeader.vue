@@ -163,7 +163,7 @@ export default {
 				<!-- Language Switcher -->
 				<router-link to="/">
 					<img
-					src="@/assets/images/lang/id.svg"
+					src="@/assets/images/lang/gb.svg"
 					class="w-9 rounded-xl ml-8 bg-primary-light dark:bg-ternary-dark"
 				/>
 				</router-link>

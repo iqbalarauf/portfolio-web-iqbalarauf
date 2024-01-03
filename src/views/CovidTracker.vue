@@ -69,17 +69,17 @@ export default {
 					{
 						id: 1,
 						details:
-							'The project was carried out for 6 months and was carried out individually. Creation includes design discussions regarding the business objectives of the website to be created. Then product photos are collected and edited according to request.',
+							'Social Media-based COVID Tracker (SMCT) is an application that can help someone track and record travel history through social media posts. Through information regarding the location and time of posting, users can check whether they have had contact with a COVID-19 patient and will be given a warning if they have had close contact with a COVID-19 patient who was in the same place and time.',
 					},
 					{
 						id: 2,
 						details:
-							'The choice of WordPress as a CMS platform was considered to speed up the website creation process considering that website work was allocated for product work. The Laroyba.com website was published in September 2021 and underwent several changes before being finalized.',
+							'The application will collect information based on the social media posts of users connected to the application. Then the location data and posting time will be sent and matched by the system. If a user reports symptoms and diagnosis of COVID-19, the users data for 14 days will be checked and other users who may be in the same location will be searched. Other users who are at the same location and time as the COVID-19 patient user within 14 days will receive a warning notification.',
 					},
 					{
 						id: 3,
 						details:
-							'Maintenance is carried out slowly to adjust to the situation while making a transition to a website that is more optimal and lightweight for the long term.',
+							'SMCT is planned to be built using a Flutter base using APIs from connected Social Media. However, as time goes by, the APIs from connected social media are starting to become limited and only a few can be implemented using web scrapping.',
 					},
 				],
 			},

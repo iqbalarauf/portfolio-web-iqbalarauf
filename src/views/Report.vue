@@ -75,17 +75,12 @@ export default {
 					{
 						id: 1,
 						details:
-							'The project was carried out for 6 months and was carried out individually. Creation includes design discussions regarding the business objectives of the website to be created. Then product photos are collected and edited according to request.',
+							'To increase reach and make it easier for the public to access the Wadul Bupati Jepara complaint service, the Android-based Wadul Bupati Jepara application was developed. With this proposal, the author will try to develop the Wadul Bupati application based on Android.',
 					},
 					{
 						id: 2,
 						details:
-							'The choice of WordPress as a CMS platform was considered to speed up the website creation process considering that website work was allocated for product work. The Laroyba.com website was published in September 2021 and underwent several changes before being finalized.',
-					},
-					{
-						id: 3,
-						details:
-							'Maintenance is carried out slowly to adjust to the situation while making a transition to a website that is more optimal and lightweight for the long term.',
+							'In developing the Wadul Regent Jepara application, the Dart programming language and the Flutter framework were used to build the Wadul Regent Jepara Android application. The back-end application is connected to the website portal via the API of the website that has been built.',
 					},
 				],
 			},
