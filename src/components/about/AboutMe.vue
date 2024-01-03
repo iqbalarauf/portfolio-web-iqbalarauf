@@ -6,20 +6,20 @@ export default {
 				{
 					id: 1,
 					bio:
-						'I am a Software Engineering student. Currently I am studying mobile programming, especially in Flutter. I am also interested in Web Development, especially about Frontend Developer, Wordpress-based, and PHP Laravel. I have also done research for theses and projects regarding UI/UX design.',
+						'Saya adalah seorang mahasiswa Software Engineering. Saat ini saya sedang mendalami mengenai mobile programming, khususnya di Flutter. Selain itu, saya tertarik mengenai Web Development, khususnya mengenai Frontend Developer dan PHP Laravel. Saya juga pernah mengerjakan penelitian untuk tesis dan proyek mengenai desain UI/UX.',
 				},
 				{
 					id: 2,
 					bio:
-						'I have been involved in several projects to create websites for companies, including design work, building WordPress-based websites, to preparing content and editing product photos.',
+						'Saya pernah terlibat beberapa project untuk pembuatan website untuk perusahaan, meliputi pengerjaan desain, pembangunan website, hingga penyusunan konten dan penyuntingan foto produk.',
 				},
 				{
 					id: 3,
 					bio:
-						'During my time as a student, I was a teaching assistant and laboratory assistant for Object-Oriented Programming and SE Implementation and Testing. Some of the projects in this portfolio are developments of lecture assignments that I have worked on. I have also written for the student press, I have written 15 articles during 2 years as staff and editor-in-chief. After this, I will continue to develop content creators for everyday technology use for society.',
+						'Selama menjadi mahasiswa, saya pernah menjadi asisten dosen dan asisten di laboratorium untuk Object-Oriented Programming dan SE Implementation and Testing. Beberapa project di portfolio ini merupakan pengembangan dari tugas perkuliahan yang pernah saya kerjakan. Saya juga pernah menulis untuk pers mahasiswa, saya telah menulis 15 artikel selama 2 tahun sebagai staf dan pimpinan redaksi. Setelah ini, saya akan melanjutkan untuk mengembangkan konten kreator untuk penggunaan teknologi harian untuk masyarakat.',
 				},
 			],
-			socialSharingsHeading: 'My Social Media',
+			socialSharingsHeading: 'Media Sosial saya',
 				socialSharings: [
 					{
 						id: 1,

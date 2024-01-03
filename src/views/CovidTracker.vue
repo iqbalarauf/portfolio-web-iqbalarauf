@@ -53,7 +53,7 @@ export default {
 				],
 				objectivesHeading: 'Objective',
 				objectivesDetails:
-					'Build a company profile website for a furniture company and a website containing a furniture product catalog using Wordpress.',
+					'Social Media-based COVID Tracker (SMCT) merupakan aplikasi yang dapat membantu seseorang untuk melacak dan mencatat riwayat perjalanan melalui postingan media sosialnya.',
 				technologies: [
 					{
 						title: 'Tools & Technologies',
@@ -69,17 +69,17 @@ export default {
 					{
 						id: 1,
 						details:
-							'Social Media-based COVID Tracker (SMCT) is an application that can help someone track and record travel history through social media posts. Through information regarding the location and time of posting, users can check whether they have had contact with a COVID-19 patient and will be given a warning if they have had close contact with a COVID-19 patient who was in the same place and time.',
+							'Social Media-based COVID Tracker (SMCT) merupakan aplikasi yang dapat membantu seseorang untuk melacak dan mencatat riwayat perjalanan melalui postingan media sosialnya. Melalui informasi mengenai lokasi dan waktu postingan, pengguna dapat mengecek apakah pernah berkontak dengan pasien COVID-19 dan akan diberi peringatan jika pernah kontak erat dengan pasien COVID-19 yang berada di tempat dan waktu yang sama.',
 					},
 					{
 						id: 2,
 						details:
-							'The application will collect information based on the social media posts of users connected to the application. Then the location data and posting time will be sent and matched by the system. If a user reports symptoms and diagnosis of COVID-19, the users data for 14 days will be checked and other users who may be in the same location will be searched. Other users who are at the same location and time as the COVID-19 patient user within 14 days will receive a warning notification.',
+							'Aplikasi akan mengumpulkan informasi berdasarkan postingan media sosial pengguna yang terhubung dengan aplikasi. Kemudian data lokasi dan waktu postingan akan dikirimkan dan dicocokkan oleh sistem. Jika pengguna melaporkan adanya gejala dan diagnosis COVID-19, data pengguna selama 14 hari akan dicek dan dicari pengguna lain yang mungkin berada di satu lokasi yang sama. Pengguna lain yang berada di lokasi dan waktu yang sama dengan pengguna pasien COVID-19 dalam waktu 14 hari akan mendapatkan notifikasi peringatan.',
 					},
 					{
 						id: 3,
 						details:
-							'SMCT is planned to be built using a Flutter base using APIs from connected Social Media. However, as time goes by, the APIs from connected social media are starting to become limited and only a few can be implemented using web scrapping.',
+							'SMCT direncanakan dibangun menggunakan basis Flutter dengan menggunakan API dari Social Media yang terhubung. Namun, seiring berjalannya waktu API dari sosial media yang terhubung saat ini mulai terbatas dan hanya beberapa yang bisa diterapkan menggunakan web scrapping.',
 					},
 				],
 			},

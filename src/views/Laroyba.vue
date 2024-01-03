@@ -63,7 +63,7 @@ export default {
 				],
 				objectivesHeading: 'Objective',
 				objectivesDetails:
-					'Build a company profile website for a furniture company and a website containing a furniture product catalog using Wordpress.',
+					'Membangun sebuah website profile company dan website katalog mebel berbasis Wordpress',
 				technologies: [
 					{
 						title: 'Tools & Technologies',
@@ -80,17 +80,12 @@ export default {
 					{
 						id: 1,
 						details:
-							'The project was carried out for 6 months and was carried out individually. Creation includes design discussions regarding the business objectives of the website to be created. Then product photos are collected and edited according to request.',
+							'Proyek yang dikerjakan selama 6 bulan dan dikerjakan secara individu. Pembuatan meliputi diskusi perancangan mengenai tujuan bisnis website yang akan dibuat. Kemudian dilakukan pengumpulan foto produk dan pengeditan sesuai permintaan.',
 					},
 					{
 						id: 2,
 						details:
-							'The choice of WordPress as a CMS platform was considered to speed up the website creation process considering that website work was allocated for product work. The Laroyba.com website was published in September 2021 and underwent several changes before being finalized.',
-					},
-					{
-						id: 3,
-						details:
-							'Maintenance is carried out slowly to adjust to the situation while making a transition to a website that is more optimal and lightweight for the long term.',
+							'Pemilihan Wordpress sebagai platform CMS dipertimbangkan untuk mempercepat proses pembuatan website mengingat pengerjaan website dialokasikan untuk pengerjaan produk. Website Laroyba.com dipublikasikan pada September 2021 dan mengalami beberapa perubahan sebelum dilakukan finalisasi.',
 					},
 				],
 			},

@@ -58,7 +58,7 @@ export default {
 				],
 				objectivesHeading: 'Objective',
 				objectivesDetails:
-					'Build a company profile website for a furniture company and a website containing a furniture product catalog using Wordpress.',
+					'Membangun aplikasi berbasis ticketing yang mengintegrasikan API Website dengan aplikasi mobile berbasis Flutter',
 				technologies: [
 					{
 						title: 'Tools & Technologies',
@@ -75,12 +75,12 @@ export default {
 					{
 						id: 1,
 						details:
-							'To increase reach and make it easier for the public to access the Wadul Bupati Jepara complaint service, the Android-based Wadul Bupati Jepara application was developed. With this proposal, the author will try to develop the Wadul Bupati application based on Android.',
+							'Untuk meningkatkan jangkauan dan memudahkan masyarakat dalam mengakses layanan pengaduan Wadul Bupati Jepara, dikembangkanlah aplikasi Wadul Bupati Jepara yang berbasis Android. Dengan adanya pengajuan tersebut, penulis akan mencoba mengembangkan aplikasi Wadul Bupati Jepara dengan berbasis Android.',
 					},
 					{
 						id: 2,
 						details:
-							'In developing the Wadul Regent Jepara application, the Dart programming language and the Flutter framework were used to build the Wadul Regent Jepara Android application. The back-end application is connected to the website portal via the API of the website that has been built.',
+							'Dalam membangun aplikasi Wadul Bupati Jepara, digunakan bahasa pemrograman Dart dan framework Flutter untuk membangun aplikasi Android Wadul Bupati Jepara. Back-end aplikasi dihubungkan dengan portal website melalui API dari website yang telah dibangun.',
 					},
 				],
 			},

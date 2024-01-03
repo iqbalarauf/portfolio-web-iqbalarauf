@@ -6,50 +6,48 @@ export default {
 				{
 					img: require('@/assets/images/experience/iflab.jpg'),
 					company: 'Informatics Lab Telkom University',
-					position: 'Laboratory Assistant - Object-oriented Programming',
+					position: 'Asisten Praktikum - Pemrograman Berorientasi Objek',
 					startDate: 'September 2023',
 					endDate: 'January 2024',
-					description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget elit sit amet libero vestibulum fermentum.'
+					description: 'Menjadi asisten Praktikum untuk mata kuliah Pemrograman Berorientasi Objek (OOP) yang bertugas untuk: \n Menyiapkan ruangan dan peralatan di ruangan kelas praktikum \n Mendampingi dan mengawasi mahasiswa praktikan di kelas praktikum \n Melakukan penilaian dan rekap terhadap hasil pengerjaan praktikan di kelas praktikum'
 				},
 				{
 					img: require('@/assets/images/experience/telkomuniv.jpg'),
 					company: 'Telkom University',
-					position: 'Lecturer Assistant - Object-oriented Programming',
+					position: 'Asisten Dosen - Pemrograman Berorientasi Objek',
 					startDate: 'September 2023',
 					endDate: 'January 2024',
-					description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget elit sit amet libero vestibulum fermentum.'
+					description: 'Membantu tugas dosen dalam menilai dan merekap progres tugas besar mahasiswa \nMengadakan responsi mahasiswa terkait dengan materi kelas dan tugas besar'
 				},
 				{
 					img: require('@/assets/images/experience/telkomuniv.jpg'),
 					company: 'Telkom University',
-					position: 'Lecturer Assistant - SE Implementation and Testing',
+					position: 'Asisten Dosen - RPL Implementasi dan Pengujian',
 					startDate: 'September 2023',
 					endDate: 'January 2024',
-					description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget elit sit amet libero vestibulum fermentum.'
+					description: 'Membantu tugas dosen dalam menilai dan merekap progres tugas besar mahasiswa \nMengadakan responsi mahasiswa terkait dengan materi kelas dan tugas besar'
 				},
 				{
 					img: require('@/assets/images/experience/diskominfojpr.jpg'),
-					company: 'Informatics and Communication Regency of Jepara',
+					company: 'Dinas Komunikasi dan Informatika Kabupaten Jepara',
 					position: 'Programmer',
 					startDate: 'August 2022',
 					endDate: 'June 2022',
-					description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget elit sit amet libero vestibulum fermentum.'
+					description: 'Terlibat dalam sebuah proyek pengembangan aplikasi e-government milik pemerintah kabupaten Jepara. \n Tanggung jawab saya meliputi penulisan teknikal (membuat dokumentasi aplikasi UML dan DFD) dan programmer mobile (Flutter-based Apps)'
 				},
 			],
 			education: [
 				{
 					img: require('@/assets/images/experience/telkomuniv.jpg'),
 					school: 'Telkom University',
-					major: 'Bachelor of Software Engineering',
+					major: 'Sarjana Rekayasa Perangkat Lunak',
 					generation: '2019-now',
-					activity: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget elit sit amet libero vestibulum fermentum.'
 				},
 				{
 					img: require('@/assets/images/experience/m2k.jpg'),
 					school: 'MAN 2 Kudus',
-					major: 'Science',
+					major: 'IPA',
 					generation: '2016-2019',
-					activity: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget elit sit amet libero vestibulum fermentum.'
 				},
 			]
 		}
@@ -113,10 +111,6 @@ export default {
 							</p>
 							<p class="text-left font-general-regular text-md text-primary-dark dark:text-ternary-light">
 								{{ edu.generation }}
-							</p>
-							<p
-								class="text-left font-general-regular text-md text-primary-dark dark:text-ternary-light mt-2">
-								{{ edu.activity }}
 							</p>
 						</div>
 					</div>

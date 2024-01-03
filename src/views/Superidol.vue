@@ -53,7 +53,7 @@ export default {
 				],
 				objectivesHeading: 'Objective',
 				objectivesDetails:
-					'Build a company profile website and integrated ticketing system for idol group. It will replicate from JKT48.com business requirements.',
+					'Membangun sebuah website pengelolaan tiket dan company profile untuk sebuah grup idola. Mereplikasi fitur dari website JKT48',
 				technologies: [
 					{
 						title: 'Tools & Technologies',
@@ -72,17 +72,17 @@ export default {
 					{
 						id: 1,
 						details:
-							'The development of Superidol was inspired by the JKT48.com website which combines several types of websites such as blog posts, ticketing systems, and scheduling. Superidol will try to replicate the features on the JKT48 website and fix some of the shortcomings that the website has experienced so far.',
+							'Pengembangan Superidol terinspirasi dari website JKT48.com yang menggabungkan beberapa jenis website seperti blog post, ticketing system, dan scheduling. Superidol ini akan mencoba mereplikasi fitur-fitur yang ada di website JKT48 dan memperbaiki beberapa kekurangan yang selama ini dialami website tersebut.',
 					},
 					{
 						id: 2,
 						details:
-							'There will be several replication features, such as scanning QR codes to verify event attendance, a ticket purchasing system that can be selected by FCFS or lottery, and processing votes for certain events (starting from generating unique codes to counting votes).',
+							'Akan terdapat beberapa fitur replikasi, seperti scan QR code untuk verifikasi kehadiran acara, sistem pembelian tiket yang dapat dipilih secara FCFS atau undian, dan memproses vote untuk acara tertentu (mulai dari generate kode unik sampai penghitungan suara).',
 					},
 					{
 						id: 3,
 						details:
-							'This process may take a very long time. So this individual project work will be updated regularly.',
+							'Proses ini mungkin memerlukan waktu yang sangat panjang. Sehingga pengerjaan proyek individu ini akan diperbarui secara berkala.',
 					},
 				],
 			},

@@ -13,7 +13,7 @@ export default {
 			contacts: [
 				{
 					id: 1,
-					name: 'Bandung, West Java, Indonesia',
+					name: 'Bandung, Jawa Barat, Indonesia',
 					icon: 'map-pin',
 				},
 				{
@@ -23,7 +23,7 @@ export default {
 				},
 				{
 					id: 3,
-					name: '(Contact Us)',
+					name: '(Hubungi Saya)',
 					icon: 'phone',
 				},
 			],
