@@ -38,7 +38,7 @@ export default {
 				dark:text-ternary-light
 			"
 	>
-		<option value class="text-sm sm:text-md">All Projects</option>
+		<option value class="text-sm sm:text-md">Semua Project</option>
 		<option
 			v-for="option in selectOptions"
 			:key="option"

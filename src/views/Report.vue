@@ -66,7 +66,7 @@ export default {
 							'HTML',
 							'CSS',
 							'PHP',
-							'Wordpress',
+							'Flutter',
 						],
 					},
 				],

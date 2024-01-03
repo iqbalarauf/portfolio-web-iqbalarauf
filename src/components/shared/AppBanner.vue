@@ -51,7 +51,7 @@ export default {
 					></i>
 					<span
 						class="text-sm sm:text-lg font-general-medium duration-100"
-						>Download CV</span
+						>Unduh CV</span
 					></a
 				>
 			</div>

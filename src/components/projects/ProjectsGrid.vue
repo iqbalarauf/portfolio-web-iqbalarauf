@@ -72,7 +72,7 @@ export default {
 					mb-4
 				"
 			>
-				Search projects by title or filter by category
+				Cari project menggunakan judul atau filter berdasarkan kategori
 			</h3>
 			<div
 				class="
