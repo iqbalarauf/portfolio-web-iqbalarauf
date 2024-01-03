@@ -89,25 +89,29 @@ export default {
 			relatedProject: {
 				relatedProjectsHeading: 'Related Projects',
 				relatedProjects: [
-					{
+				{
 						id: 1,
-						title: 'Mobile UI',
-						img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
+						title: 'Laroyba Classic',
+						img: require('@/assets/images/laroyba-classic/first.jpg'),
+						link: '/projects/lrb-project',
 					},
 					{
 						id: 2,
-						title: 'Web Application',
-						img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
+						title: 'E-Government Report App',
+						img: require('@/assets/images/report/satu.jpg'),
+						link: '/projects/egov-report',
 					},
 					{
 						id: 3,
-						title: 'UI Design',
-						img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
+						title: 'Social-Media Based Covid Tracker',
+						img: require('@/assets/images/smct/first.jpg'),
+						link: '/projects/socmed-covid-tracker',
 					},
 					{
 						id: 4,
-						title: 'Kabul Mobile App UI',
-						img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
+						title: 'AksaraPers News',
+						img: require('@/assets/images/aksarapers.png'),
+						link: '/projects/aksarapers-news',
 					},
 				],
 			},

@@ -41,7 +41,7 @@ const projects = [
 		id: 6,
 		title: 'ArgumentasiRealiti Project',
 		category: 'Content Writing',
-		img: require('@/assets/images/web-project-1.jpg'),
+		img: require('@/assets/images/argmtsrealiti3.png'),
 		link: '/projects/argumentasirealiti',
 	},
 ];
