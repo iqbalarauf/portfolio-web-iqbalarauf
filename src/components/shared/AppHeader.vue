@@ -161,12 +161,15 @@ export default {
 				/>
 
 				<!-- Language Switcher -->
-				<router-link to="/">
+				<BreadcrumbItem>
+					<a href="http://iqbalarauf.my.id">
 					<img
 					src="@/assets/images/lang/gb.svg"
 					class="w-9 rounded-xl ml-8 bg-primary-light dark:bg-ternary-dark"
 				/>
-				</router-link>
+				</a>
+				</BreadcrumbItem>
+				
 			</div>
 		</div>
 
