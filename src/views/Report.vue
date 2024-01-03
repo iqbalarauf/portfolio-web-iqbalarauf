@@ -6,7 +6,7 @@ import ProjectInfo from '../components/projects/ProjectInfo.vue';
 import ProjectRelatedProjects from '../components/projects/ProjectRelatedProjects.vue';
 
 export default {
-	name: 'Laroyba',
+	name: 'Report',
 	components: {
 		ProjectHeader,
 		ProjectGallery,
@@ -24,21 +24,21 @@ export default {
 				{
 					id: 1,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/report/first.png'),
+					img: require('@/assets/images/report/satu.jpg'),
 				},
 				{
 					id: 2,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/report/second.png'),
+					img: require('@/assets/images/report/dua.jpg'),
 				},
 				{
 					id: 3,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/report/third.png'),
+					img: require('@/assets/images/report/tiga.jpg'),
 				},
 			],
 			projectInfo: {
-				clientHeading: 'About Client',
+				clientHeading: 'Government Institution',
 				companyInfos: [
 					{
 						id: 1,
@@ -96,25 +96,21 @@ export default {
 						id: 1,
 						title: 'Laroyba Classic',
 						img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
-						link: '/projects/lrb-project',
 					},
 					{
 						id: 2,
 						title: 'E-Government Report App',
 						img: require('@/assets/images/report/first.png'),
-						link: '/projects/egov-report',
 					},
 					{
 						id: 3,
 						title: 'Social-Media Based Covid Tracker',
 						img: require('@/assets/images/smct/first.png'),
-						link: '/projects/socmed-covid-tracker',
 					},
 					{
 						id: 4,
 						title: 'AksaraPers News',
 						img: require('@/assets/images/aksarapers.png'),
-						link: '/projects/argumentasirealiti',
 					},
 				],
 			},

@@ -24,17 +24,17 @@ export default {
 				{
 					id: 1,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
+					img: require('@/assets/images/laroyba-classic/first.jpg'),
 				},
 				{
 					id: 2,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/laroyba-classic/lrb-classic-2.png'),
+					img: require('@/assets/images/laroyba-classic/second.jpg'),
 				},
 				{
 					id: 3,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/laroyba-classic/lrb-classic-3.png'),
+					img: require('@/assets/images/laroyba-classic/third.jpg'),
 				},
 			],
 			projectInfo: {

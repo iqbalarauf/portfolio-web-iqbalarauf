@@ -1,5 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
+import About from '../views/About.vue';
+import Superidol from '../views/Superidol.vue';
+import CovidTracker from '../views/CovidTracker.vue';
+import Report from '../views/Report.vue';
 
 const routes = [
 	{
@@ -7,7 +11,7 @@ const routes = [
 		name: 'Home',
 		component: Home,
 		meta: {
-			title: 'Hi, This Is IqbalARauf',
+			title: 'Hi, This Is IqbalARauf Web',
 		},
 	},
 	{
@@ -16,8 +20,7 @@ const routes = [
 		// route level code-splitting
 		// this generates a separate chunk (about.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
-		component: () =>
-			import(/* webpackChunkName: "about" */ '../views/About.vue'),
+		component: About,
 		meta: {
 			title: 'About IqbalARauf',
 		},
@@ -49,45 +52,36 @@ const routes = [
 		},
 	},
 	{
-		path: '/projects/egov-report',
-		name: 'Second Project',
+		path: '/projects/gov-report',
+		name: 'Report',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
-		component: () =>
-			import(
-				/* webpackChunkName: "projects" */ '../views/Report.vue'
-			),
+		component: Report,
 		meta: {
 			title: 'IqbalARauf - E-Government Report App',
 		},
 	},
 	{
-		path: '/projects/superidol',
-		name: 'Second Project',
+		path: '/projects/smct',
+		name: 'Social Media-based Covid Tracker',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
-		component: () =>
-			import(
-				/* webpackChunkName: "projects" */ '../views/Superidol.vue'
-			),
+		component: CovidTracker,
 		meta: {
-			title: 'IqbalARauf - Superidol App (JKT48 Replicate)',
+			title: 'IqbalARauf - Socmed Covid Tracker',
 		},
 	},
 	{
-		path: '/projects/socmed-covid-tracker',
-		name: 'Second Project',
+		path: '/projects/superidol',
+		name: 'Superidol',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
-		component: () =>
-			import(
-				/* webpackChunkName: "projects" */ '../views/CovidTracker.vue'
-			),
+		component: Superidol,
 		meta: {
-			title: 'IqbalARauf - Socmed Covid Tracker',
+			title: 'IqbalARauf - Superidol App (JKT48 Replicate)',
 		},
 	},
 	{
@@ -130,6 +124,7 @@ const routes = [
 			title: 'Contact to IqbalARauf',
 		},
 	},
+	
 ];
 
 const router = createRouter({

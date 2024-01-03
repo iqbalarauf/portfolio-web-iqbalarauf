@@ -6,7 +6,7 @@ import ProjectInfo from '../components/projects/ProjectInfo.vue';
 import ProjectRelatedProjects from '../components/projects/ProjectRelatedProjects.vue';
 
 export default {
-	name: 'Laroyba',
+	name: 'Covid Tracker',
 	components: {
 		ProjectHeader,
 		ProjectGallery,
@@ -24,17 +24,17 @@ export default {
 				{
 					id: 1,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/smct/first.png'),
+					img: require('@/assets/images/smct/first.jpg'),
 				},
 				{
 					id: 2,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/smct/Class Diagram Covid.png'),
+					img: require('@/assets/images/smct/second.jpg'),
 				},
 				{
 					id: 3,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/smct/poster.png'),
+					img: require('@/assets/images/smct/thirds.jpg'),
 				},
 			],
 			projectInfo: {

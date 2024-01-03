@@ -6,7 +6,7 @@ import ProjectInfo from '../components/projects/ProjectInfo.vue';
 import ProjectRelatedProjects from '../components/projects/ProjectRelatedProjects.vue';
 
 export default {
-	name: 'Laroyba',
+	name: 'Superidol',
 	components: {
 		ProjectHeader,
 		ProjectGallery,
@@ -16,54 +16,44 @@ export default {
 	data: () => {
 		return {
 			singleProjectHeader: {
-				singleProjectTitle: 'Laroyba Classic Furniture Website',
-				singleProjectDate: 'November 2021',
-				singleProjectTag: 'Wordpress / Web Development',
+				singleProjectTitle: 'Superidol Integration App',
+				singleProjectDate: 'Start from January 2024',
+				singleProjectTag: 'Mobile Development / Web Development',
 			},
 			projectImages: [
 				{
 					id: 1,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
+					img: require('@/assets/images/superidol/mockuppc.jpg'),
 				},
 				{
 					id: 2,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/laroyba-classic/lrb-classic-2.png'),
+					img: require('@/assets/images/superidol/mockupphone1.jpg'),
 				},
 				{
 					id: 3,
 					title: 'Laroyba Classic Furniture Website',
-					img: require('@/assets/images/laroyba-classic/lrb-classic-3.png'),
+					img: require('@/assets/images/superidol/mockupphone2.jpg'),
 				},
 			],
 			projectInfo: {
-				clientHeading: 'About Client',
+				clientHeading: 'About',
 				companyInfos: [
 					{
 						id: 1,
 						title: 'Name',
-						details: 'Laroyba Furniture',
+						details: 'Superidol App',
 					},
 					{
 						id: 2,
-						title: 'Services',
-						details: 'Web Development',
-					},
-					{
-						id: 3,
-						title: 'Website',
-						details: 'https://laroyba.com',
-					},
-					{
-						id: 4,
-						title: 'Phone',
-						details: '-',
+						title: 'Category',
+						details: 'Individual Portfolio',
 					},
 				],
 				objectivesHeading: 'Objective',
 				objectivesDetails:
-					'Build a company profile website for a furniture company and a website containing a furniture product catalog using Wordpress.',
+					'Build a company profile website and integrated ticketing system for idol group. It will replicate from JKT48.com business requirements.',
 				technologies: [
 					{
 						title: 'Tools & Technologies',
@@ -71,7 +61,9 @@ export default {
 							'HTML',
 							'CSS',
 							'PHP',
-							'Wordpress',
+							'Laravel',
+							'Flutter',
+							'Figma',
 						],
 					},
 				],
@@ -80,17 +72,17 @@ export default {
 					{
 						id: 1,
 						details:
-							'The project was carried out for 6 months and was carried out individually. Creation includes design discussions regarding the business objectives of the website to be created. Then product photos are collected and edited according to request.',
+							'The development of Superidol was inspired by the JKT48.com website which combines several types of websites such as blog posts, ticketing systems, and scheduling. Superidol will try to replicate the features on the JKT48 website and fix some of the shortcomings that the website has experienced so far.',
 					},
 					{
 						id: 2,
 						details:
-							'The choice of WordPress as a CMS platform was considered to speed up the website creation process considering that website work was allocated for product work. The Laroyba.com website was published in September 2021 and underwent several changes before being finalized.',
+							'There will be several replication features, such as scanning QR codes to verify event attendance, a ticket purchasing system that can be selected by FCFS or lottery, and processing votes for certain events (starting from generating unique codes to counting votes).',
 					},
 					{
 						id: 3,
 						details:
-							'Maintenance is carried out slowly to adjust to the situation while making a transition to a website that is more optimal and lightweight for the long term.',
+							'This process may take a very long time. So this individual project work will be updated regularly.',
 					},
 				],
 			},
@@ -100,22 +92,22 @@ export default {
 					{
 						id: 1,
 						title: 'Mobile UI',
-						img: require('@/assets/images/mobile-project-1.jpg'),
+						img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
 					},
 					{
 						id: 2,
 						title: 'Web Application',
-						img: require('@/assets/images/web-project-1.jpg'),
+						img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
 					},
 					{
 						id: 3,
 						title: 'UI Design',
-						img: require('@/assets/images/ui-project-2.jpg'),
+						img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
 					},
 					{
 						id: 4,
 						title: 'Kabul Mobile App UI',
-						img: require('@/assets/images/mobile-project-2.jpg'),
+						img: require('@/assets/images/laroyba-classic/lrb-classic-1.png'),
 					},
 				],
 			},
