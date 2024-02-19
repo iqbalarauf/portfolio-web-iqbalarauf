@@ -152,7 +152,7 @@ export default {
 				Pengujian dan Quality Assurance
 			</p>
 			<iframe class="w-full aspect-video"
-				src="https://docs.google.com/presentation/d/e/2PACX-1vQGF_SUdPyFtq7lTxeRqr9PjQAsLVfLUSBhRgktzCQjAzGdtbueLysGjZqXtNl3FQ/embed?start=false&loop=false&delayms=3000"
+				src="https://docs.google.com/presentation/d/e/2PACX-1vTBJv5RNu1EK-pRUulfheF4V43Crs8CB-dNDmyz59ElDGU80mma5lEualo5DM6w_GFG8opWu8y0TSN9/embed?start=false&loop=false&delayms=3000"
 				allowfullscreen="true" mozallowfullscreen="true"
 				webkitallowfullscreen="true"></iframe>
 		</div>
@@ -166,7 +166,7 @@ export default {
 					aria-label="Download Resume"
 				>
 					<i
-						data-feather="arrow-down-circle"
+						data-feather="archive"
 						class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
 					></i>
 					<span

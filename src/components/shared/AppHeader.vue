@@ -162,7 +162,7 @@ export default {
 
 				<!-- Language Switcher -->
 				<BreadcrumbItem>
-					<a href="http://en.iqbalarauf.my.id">
+					<a href="#">
 					<img
 					src="@/assets/images/lang/id.svg"
 					class="w-9 rounded-xl ml-8 bg-primary-light dark:bg-ternary-dark"

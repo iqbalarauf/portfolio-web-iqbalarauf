@@ -11,7 +11,7 @@ const routes = [
 		name: 'Home',
 		component: Home,
 		meta: {
-			title: 'Hi, This Is IqbalARauf Web',
+			title: 'Hi, Welcome to IqbalARauf Web!',
 		},
 	},
 	{
@@ -48,7 +48,7 @@ const routes = [
 				/* webpackChunkName: "projects" */ '../views/Laroyba.vue'
 			),
 		meta: {
-			title: 'IqbalARauf - LRB Project',
+			title: 'Project - LaRoyba Project',
 		},
 	},
 	{
@@ -59,7 +59,7 @@ const routes = [
 		// which is lazy-loaded when the route is visited.
 		component: Report,
 		meta: {
-			title: 'IqbalARauf - E-Government Report App',
+			title: 'Project - E-Government Report App',
 		},
 	},
 	{
@@ -70,7 +70,7 @@ const routes = [
 		// which is lazy-loaded when the route is visited.
 		component: CovidTracker,
 		meta: {
-			title: 'IqbalARauf - Socmed Covid Tracker',
+			title: 'Project - Socmed Covid Tracker',
 		},
 	},
 	{
@@ -81,7 +81,7 @@ const routes = [
 		// which is lazy-loaded when the route is visited.
 		component: Superidol,
 		meta: {
-			title: 'IqbalARauf - Superidol App (JKT48 Replicate)',
+			title: 'Project - Superidol Integrated App',
 		},
 	},
 	{
@@ -95,21 +95,7 @@ const routes = [
 				/* webpackChunkName: "projects" */ '../views/AksaraPers.vue'
 			),
 		meta: {
-			title: 'IqbalARauf - AksaraPers.com News',
-		},
-	},
-	{
-		path: '/projects/argumentasirealiti',
-		name: 'ArgumentasiRealiti Project',
-		// route level code-splitting
-		// this generates a separate chunk (projects.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
-		component: () =>
-			import(
-				/* webpackChunkName: "projects" */ '../views/ArgumentasiRealiti.vue'
-			),
-		meta: {
-			title: 'IqbalARauf - ArgumentasiRealiti Project',
+			title: 'Project - AksaraPers.com News',
 		},
 	},
 	{

@@ -25,7 +25,7 @@ const projects = [
 	},
 	{
 		id: 4,
-		title: 'SuperIdol Integrated Apps (JKT48 Replicate)',
+		title: 'SuperIdol Integrated Apps',
 		category: 'Mobile Application',
 		img: require('@/assets/images/superidol/mockuppc.jpg'),
 		link: '/projects/superidol',
@@ -36,13 +36,6 @@ const projects = [
 		category: 'Content Writing',
 		img: require('@/assets/images/aksarapers.png'),
 		link: '/projects/aksarapers-news',
-	},
-	{
-		id: 6,
-		title: 'ArgumentasiRealiti Project',
-		category: 'Content Writing',
-		img: require('@/assets/images/argmtsrealiti3.png'),
-		link: '/projects/argumentasirealiti',
 	},
 ];
 

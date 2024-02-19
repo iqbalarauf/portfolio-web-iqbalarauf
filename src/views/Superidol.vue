@@ -138,6 +138,17 @@ export default {
 		<!-- Project information -->
 		<ProjectInfo :projectInfo="projectInfo" />
 
+		<!-- Project Show: Embed FIgma UI -->
+		<div class="w-full items-center mt-10 mb-10 sm:mt-0">
+			<p class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
+				UI Concept Design
+			</p>
+			<iframe class="w-full aspect-video"
+				src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FOHkgAq8p7ByK3nvYIcdLz1%2F2SHOTGO!-Portfolio%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DmiZboqoXLjBBorQ6-1"
+				allowfullscreen="true" mozallowfullscreen="true"
+				webkitallowfullscreen="true"></iframe>
+		</div>
+
 		<!-- Project related projects -->
 		<ProjectRelatedProjects :relatedProject="relatedProject" />
 	</div>
