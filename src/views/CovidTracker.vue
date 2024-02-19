@@ -86,7 +86,7 @@ export default {
 			relatedProject: {
 				relatedProjectsHeading: 'Related Projects',
 				relatedProjects: [
-				{
+					{
 						id: 1,
 						title: 'Laroyba Classic',
 						img: require('@/assets/images/laroyba-classic/first.jpg'),
@@ -134,6 +134,47 @@ export default {
 
 		<!-- Project information -->
 		<ProjectInfo :projectInfo="projectInfo" />
+
+		<!-- Project Show: Embed FIgma UI -->
+		<div class="w-full items-center mt-10 mb-10 sm:mt-0">
+			<p class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
+				UI/UX Design
+			</p>
+			<iframe class="w-full aspect-video"
+				src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoqrpYhOjPdMyhOU4meH73Y%2FCovid_Tracker%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DwqVafGMshiuVHWcs-1"
+				allowfullscreen="true" mozallowfullscreen="true"
+				webkitallowfullscreen="true"></iframe>
+		</div>
+		
+		<!-- Project Show: Attachment Data QA dan Pengujian PL -->
+		<div class="w-full items-center mt-10 sm:mt-0">
+			<p class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
+				Pengujian dan Quality Assurance
+			</p>
+			<iframe class="w-full aspect-video"
+				src="https://docs.google.com/presentation/d/e/2PACX-1vQGF_SUdPyFtq7lTxeRqr9PjQAsLVfLUSBhRgktzCQjAzGdtbueLysGjZqXtNl3FQ/embed?start=false&loop=false&delayms=3000"
+				allowfullscreen="true" mozallowfullscreen="true"
+				webkitallowfullscreen="true"></iframe>
+		</div>
+
+		<!-- Project Show: Mobile Development -->
+		<div class="flex justify-center">
+				<a
+					download="Resume-IqbalARauf.pdf"
+					href="/files/Resume-IqbalARauf.pdf"
+					class="flex justify-center items-center w-96 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
+					aria-label="Download Resume"
+				>
+					<i
+						data-feather="arrow-down-circle"
+						class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
+					></i>
+					<span
+						class="text-sm sm:text-lg font-general-medium duration-100"
+						>Akses Informasi SRS dan SDD</span
+					></a
+				>
+			</div>
 
 		<!-- Project related projects -->
 		<ProjectRelatedProjects :relatedProject="relatedProject" />
