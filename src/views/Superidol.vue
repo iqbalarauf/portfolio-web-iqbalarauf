@@ -58,12 +58,8 @@ export default {
 					{
 						title: 'Tools & Technologies',
 						techs: [
-							'HTML',
-							'CSS',
-							'PHP',
-							'Laravel',
-							'Flutter',
 							'Figma',
+							'UI/UX Design',
 						],
 					},
 				],
@@ -72,7 +68,7 @@ export default {
 					{
 						id: 1,
 						details:
-							'Pengembangan Superidol terinspirasi dari website JKT48.com yang menggabungkan beberapa jenis website seperti blog post, ticketing system, dan scheduling. Superidol ini akan mencoba mereplikasi fitur-fitur yang ada di website JKT48 dan memperbaiki beberapa kekurangan yang selama ini dialami website tersebut.',
+							'Pengembangan Superidol terinspirasi dari website sebuah grup idola yang menggabungkan beberapa jenis website seperti blog post, ticketing system, dan scheduling. Superidol ini akan mencoba mereplikasi fitur-fitur yang ada di website tersebut dan memperbaiki beberapa kekurangan yang selama ini dialami website tersebut.',
 					},
 					{
 						id: 2,
