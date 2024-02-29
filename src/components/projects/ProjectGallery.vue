@@ -14,7 +14,7 @@ export default {
 			<img
 				:src="projectImage.img"
 				class="w-96 h-96 object-cover rounded-xl cursor-pointer shadow-lg sm:shadow-none"
-				alt="{{ projectImage.title }}"
+
 			/>
 		</div>
 	</div>

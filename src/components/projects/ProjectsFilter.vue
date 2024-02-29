@@ -13,7 +13,7 @@ export default {
 				'Software Development',
 				'UI/UX Design',
 				'Content Writing',
-				'Mobile Development',
+				'Mobile Application',
 			],
 		},
 	},
