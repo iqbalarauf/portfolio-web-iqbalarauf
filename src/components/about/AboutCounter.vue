@@ -9,7 +9,7 @@ export default {
 					position: 'Asisten Praktikum - Pemrograman Berorientasi Objek',
 					startDate: 'September 2023',
 					endDate: 'January 2024',
-					description: 'Menjadi asisten Praktikum untuk mata kuliah Pemrograman Berorientasi Objek (OOP) yang bertugas untuk: \n Menyiapkan ruangan dan peralatan di ruangan kelas praktikum \n Mendampingi dan mengawasi mahasiswa praktikan di kelas praktikum \n Melakukan penilaian dan rekap terhadap hasil pengerjaan praktikan di kelas praktikum'
+					description: 'Bertanggung jawab mendampingi dan mengawasi mahasiswa praktikan di kelas praktikum serta melakukan penilaian dan rekap terhadap hasil pengerjaan praktikan di kelas praktikum sebanyak 40 orang di 5 kelas dan 2 program studi (Informatika dan Teknologi Informasi)'
 				},
 				{
 					img: require('@/assets/images/experience/telkomuniv.jpg'),
@@ -17,7 +17,7 @@ export default {
 					position: 'Asisten Dosen - Pemrograman Berorientasi Objek',
 					startDate: 'September 2023',
 					endDate: 'January 2024',
-					description: 'Membantu tugas dosen dalam menilai dan merekap progres tugas besar mahasiswa \nMengadakan responsi mahasiswa terkait dengan materi kelas dan tugas besar'
+					description: 'Mengadakan responsi perkuliahan dan mengontrol progres pengerjaan tugas besar 34 mahasiswa kelas mata kuliah Pemrograman Berorientasi Obyek sebanyak 7 kali pertemuan.'
 				},
 				{
 					img: require('@/assets/images/experience/telkomuniv.jpg'),
@@ -25,28 +25,28 @@ export default {
 					position: 'Asisten Dosen - RPL Implementasi dan Pengujian',
 					startDate: 'September 2023',
 					endDate: 'January 2024',
-					description: 'Membantu tugas dosen dalam menilai dan merekap progres tugas besar mahasiswa \nMengadakan responsi mahasiswa terkait dengan materi kelas dan tugas besar'
+					description: 'Mengadakan kelas responsi dan mengontrol progres pengerjaan tugas besar 26 mahasiswa kelas mata kuliah RPL Implementasi Pengujian sebanyak 4 kali pertemuan.'
 				},
 				{
 					img: require('@/assets/images/experience/diskominfojpr.jpg'),
-					company: 'Dinas Komunikasi dan Informatika Kabupaten Jepara',
-					position: 'Programmer',
+					company: 'Diskominfo Kabupaten Jepara',
+					position: 'Intern Programmer',
 					startDate: 'August 2022',
 					endDate: 'June 2022',
-					description: 'Terlibat dalam sebuah proyek pengembangan aplikasi e-government milik pemerintah kabupaten Jepara. \n Tanggung jawab saya meliputi penulisan teknikal (membuat dokumentasi aplikasi UML dan DFD) dan programmer mobile (Flutter-based Apps)'
+					description: 'Membangun terlibat dalam sebuah proyek pengembangan aplikasi e-government dengan tanggung jawab meliputi analisis dan pembuatan dokumentasi aplikasi yang telah dibuat serta membangun desain aplikasi Android.'
 				},
 			],
 			education: [
 				{
 					img: require('@/assets/images/experience/telkomuniv.jpg'),
 					school: 'Telkom University',
-					major: 'Sarjana Rekayasa Perangkat Lunak',
-					generation: '2019-now',
+					major: 'Sarjana Rekayasa Perangkat Lunak (S.Si.Kom.)',
+					generation: '2019-2024',
 				},
 				{
 					img: require('@/assets/images/experience/m2k.jpg'),
-					school: 'MAN 2 Kudus',
-					major: 'IPA',
+					school: 'MA Negeri 2 Kudus',
+					major: 'Program Peminatan Matematika dan IPA',
 					generation: '2016-2019',
 				},
 			]
@@ -56,24 +56,25 @@ export default {
 </script>
 
 <template>
-	<div class="block sm:flex sm:gap-5 mt-10 sm:mt-20 bg-primary-light dark:bg-ternary-dark shadow-sm">
+	<div class="block sm:flex sm:gap-1 mt-10 sm:mt-20 bg-primary-light dark:bg-ternary-dark shadow-sm">
 		<!-- Experience -->
-			<div class="container w-5/6 mx-auto py-10">
+			<div class="container w-full mx-auto py-10">
 				<p class="text-left w-1/2 font-general-bold text-3xl text-secondary-dark dark:text-secondary-light mb-5">
 				Experience
 			</p>
 			<section v-for="(job, index) in experience" :key="index">
-				<div class="w-full mb-7 sm:mb-0">
-						<img
+				<div class="flex flex-row mb-2">
+					<div><img
 							:src="job.img"
 							class="w-12 rounded-xl"
-						/>
-					</div>	
+					/></div>	
+					<div>
+						<h2 class="text-start font-general-bold text-2xl text-secondary-dark dark:text-secondary-light mb-2 pt-2 pl-4">
+							{{ job.company }}</h2>
+					</div>
+				</div>	
 				<div class="w-full mb-7 sm:mb-0">
 					<div class="w-full mb-7 sm:mb-0">
-						<h2 class="text-left font-general-bold text-2xl text-secondary-dark dark:text-secondary-light mb-2">
-							{{
-								job.company }}</h2>
 						<div class="mb-7">
 							<p class="text-left font-general-medium text-xl text-ternary-dark dark:text-ternary-light mb-2">
 								{{ job.position }}
@@ -90,27 +91,30 @@ export default {
 				</div>
 			</section>
 			</div>
-			<div class="container w-5/6 mx-auto py-10">
+			<div class="container w-full mx-auto py-10">
 				<p class="text-left w-1/2 font-general-bold text-3xl text-secondary-dark dark:text-secondary-light mb-5">
 				Education
 			</p>
 			<section v-for="(edu, index) in education" :key="index">
-				<div class="mb-7 sm:mb-0">
-						<img
+				<div class="flex flex-row mb-2">
+					<div><img
 							:src="edu.img"
-							class="w-12 rounded-xl"
-						/>
-					</div>	
+							class="inline w-12 rounded-xl"
+					/></div>	
+					<div>
+						<h2 class="text-left font-general-bold text-2xl text-secondary-dark dark:text-secondary-light mb-2 pt-0 pl-4">
+							{{ edu.school }}</h2>
+							
+					</div>
+				</div>		
 				<div class="w-full mb-7 sm:mb-0">
 					<div class="w-full mb-7 sm:mb-0">
-						<h2 class="text-left font-general-bold text-2xl text-secondary-dark dark:text-secondary-light mb-2">
-							{{ edu.school }}</h2>
-						<div class="mb-7">
-							<p class="text-left font-general-medium text-xl text-ternary-dark dark:text-ternary-light mb-2">
+						<p class="text-left font-general-medium text-lg text-ternary-dark dark:text-ternary-light mb-2 pt-0">
 								{{ edu.major }}
 							</p>
+						<div class="mb-7">
 							<p class="text-left font-general-regular text-md text-primary-dark dark:text-ternary-light">
-								{{ edu.generation }}
+								Year active: {{ edu.generation }}
 							</p>
 						</div>
 					</div>

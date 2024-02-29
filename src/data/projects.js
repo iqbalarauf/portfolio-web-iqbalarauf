@@ -19,14 +19,14 @@ const projects = [
 	{
 		id: 3,
 		title: 'Social-Media Based Covid Tracker',
-		category: 'UI/UX Design',
+		category: 'Software Development',
 		img: require('@/assets/images/smct/first.jpg'),
 		link: '/projects/smct',
 	},
 	{
 		id: 4,
 		title: 'SuperIdol Integrated Apps',
-		category: 'Mobile Application',
+		category: 'UI/UX Design',
 		img: require('@/assets/images/superidol/mockuppc.jpg'),
 		link: '/projects/superidol',
 	},

@@ -2,12 +2,14 @@
 import AboutMe from '@/components/about/AboutMe';
 import AboutCounter from '@/components/about/AboutCounter';
 import feather from 'feather-icons';
+import AboutCertificate from '../components/about/AboutCertificate.vue';
 
 export default {
 	name: 'About',
 	components: {
     AboutMe,
     AboutCounter,
+    AboutCertificate
 },
 	data: () => {
 		return {};
@@ -31,9 +33,10 @@ export default {
 
 		<!-- About counter -->
 		<AboutCounter />
+		<AboutCertificate />
 
 		<!-- Github Activities -->
-		<div class="container center mx-auto py-20 block sm:flex sm:justify-center sm:items-center">
+		<div class="container center mx-auto py-20 block sm:flex sm:justify-center sm:items-center bg-primary-light dark:bg-ternary-dark shadow-sm">
 			<p class="font-general-medium text-2xl text-secondary-dark dark:text-secondary-light mb-2">
 				Github Activities
 			</p>

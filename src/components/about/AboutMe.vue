@@ -88,7 +88,7 @@ export default {
 		</div>
 
 		<!-- About details -->
-		<div class="w-full sm:w-3/4 text-left align-center">
+		<div class="w-full sm:w-3/4 text-justify align-center">
 			<p
 				v-for="bio in bios"
 				:key="bio.id"
