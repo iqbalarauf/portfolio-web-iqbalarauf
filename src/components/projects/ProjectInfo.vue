@@ -30,7 +30,7 @@ export default {
 						:key="info"
 						class="font-general-regular text-ternary-dark dark:text-ternary-light"
 					>
-						<span>{{ info.title }}: </span>
+						<span class="font-semibold">{{ info.title }}: </span>
 						<a
 							:class="
 								info.title == 'Website' || info.title == 'Phone'

@@ -135,6 +135,24 @@ export default {
 		<!-- Project information -->
 		<ProjectInfo :projectInfo="projectInfo" />
 
+		<!-- Project Show: Access Button -->
+		<div class="flex justify-center gap-5 mb-10">
+				<a
+					href="https://drive.google.com/drive/folders/16iD5MqY7nJKHQ_J7llBV2AJjCEdI0LAC?usp=sharing" target="_blank"
+					class="flex justify-center items-center w-96 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
+					aria-label="Drive Dokumen"
+				>
+					<i
+						data-feather="archive"
+						class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
+					></i>
+					<span
+						class="text-sm sm:text-lg font-general-medium duration-100"
+						>Akses Arsip Dokumen Requirement</span
+					></a
+				>
+		</div>
+
 		<!-- Project Show: Embed FIgma UI -->
 		<div class="w-full items-center mt-10 mb-10 sm:mt-0">
 			<p class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
@@ -157,13 +175,11 @@ export default {
 				webkitallowfullscreen="true"></iframe>
 		</div>
 
-		<!-- Project Show: Mobile Development -->
-		<div class="flex justify-center">
+		<div class="flex justify-center gap-5">
 				<a
-					download="Resume-IqbalARauf.pdf"
-					href="/files/Resume-IqbalARauf.pdf"
+					href="https://drive.google.com/drive/folders/1O6s2GYgJuI9XgNB9GsDSwTFRsCVvBKg0?usp=sharing" target="_blank"
 					class="flex justify-center items-center w-96 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
-					aria-label="Download Resume"
+					aria-label="Drive Dokumen"
 				>
 					<i
 						data-feather="archive"
@@ -171,10 +187,40 @@ export default {
 					></i>
 					<span
 						class="text-sm sm:text-lg font-general-medium duration-100"
-						>Akses Informasi SRS dan SDD</span
+						>Akses Arsip Dokumen QA Testing</span
 					></a
 				>
-			</div>
+				<a
+					href="https://adoring-montalcini.178-128-119-9.plesk.page" target="_blank"
+					class="flex justify-center items-center w-96 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
+					aria-label="Drive Dokumen"
+				>
+					<i
+						data-feather="globe"
+						class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
+					></i>
+					<span
+						class="text-sm sm:text-lg font-general-medium duration-100"
+						>Akses Website Prototype</span
+					></a
+				>
+		</div>
+		<div class="flex justify-center gap-5 mb-10">
+				<a
+					href="https://github.com/iqbalarauf/SocmedCovidTracker" target="_blank"
+					class="flex justify-center items-center w-96 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
+					aria-label="Drive Dokumen"
+				>
+					<i
+						data-feather="globe"
+						class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
+					></i>
+					<span
+						class="text-sm sm:text-lg font-general-medium duration-100"
+						>Akses Source Code Mobile</span
+					></a
+				>
+		</div>
 
 		<!-- Project related projects -->
 		<ProjectRelatedProjects :relatedProject="relatedProject" />
