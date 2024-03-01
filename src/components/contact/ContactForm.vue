@@ -48,7 +48,7 @@ import emailjs from 'emailjs-com'
 			<p class="font-general-medium text-primary-dark dark:text-primary-light text-2xl mb-8">
 				Formulir Kontak
 			</p>
-			<form action="mailto:iqbalarauf@outlook.co.id" class="font-general-regular space-y-7">
+			<form action="https://fabform.io/f/r6lQfk_" class="font-general-regular space-y-7" method="post">
 				<FormInput label="Nama Lengkap" inputIdentifier="name" />
 				<FormInput label="Email" inputIdentifier="email" inputType="email" />
 				<FormInput label="Subyek" inputIdentifier="subject" />

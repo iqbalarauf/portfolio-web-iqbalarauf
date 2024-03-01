@@ -12,6 +12,7 @@
     "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-plugin-router": "^5.0.8",
+    "axios": "^1.6.7",
     "core-js": "^3.27.2",
     "emailjs-com": "^3.2.0",
     "feather-icons": "^4.29.0",
