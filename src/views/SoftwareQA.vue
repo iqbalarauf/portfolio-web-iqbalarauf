@@ -112,6 +112,48 @@ export default {
 		<!-- Project Show: Attachment Data QA dan Pengujian PL -->
 		<div class="w-full items-center mt-10 sm:mt-0">
 			<p class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7 mt-7">
+				Quality Assurance Portfolio
+			</p>
+			<iframe class="w-full aspect-video"
+				src="https://docs.google.com/presentation/d/e/2PACX-1vRb1kSsbT9wB5_JlhWf5_VOo3ND_Z-zMGXFa37HfEE8SSiTOiJ6niyDB7Uir7RjHzwbJHJVjebMFr7d/embed?start=false&loop=false&delayms=3000"
+				allowfullscreen="true" mozallowfullscreen="true"
+				webkitallowfullscreen="true"></iframe>
+		</div>
+
+		<div class="flex justify-center gap-5">
+				<a
+					href="#" target="_blank"
+					class="flex justify-center items-center w-96 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
+					aria-label="Drive Dokumen"
+				>
+					<i
+						data-feather="archive"
+						class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
+					></i>
+					<span
+						class="text-sm sm:text-lg font-general-medium duration-100"
+						>Akses Arsip Dokumen QA Testing</span
+					></a
+				>
+				<a
+					href="#" target="_blank"
+					class="flex justify-center items-center w-96 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
+					aria-label="Drive Dokumen"
+				>
+					<i
+						data-feather="globe"
+						class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
+					></i>
+					<span
+						class="text-sm sm:text-lg font-general-medium duration-100"
+						>Akses Website Prototype</span
+					></a
+				>
+		</div>
+
+		<!-- Project Show: Attachment Data QA dan Pengujian PL -->
+		<div class="w-full items-center mt-10 sm:mt-0">
+			<p class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7 mt-7">
 				Tugas Besar Mata Kuliah: Social-media Based Covid Tracker
 			</p>
 			<iframe class="w-full aspect-video"

@@ -37,6 +37,13 @@ const projects = [
 		img: require('@/assets/images/aksarapers.png'),
 		link: '/projects/aksarapers-news',
 	},
+	{
+		id: 6,
+		title: 'BotOniel Jokes Generator',
+		category: 'Web Application',
+		img: require('@/assets/images/botoniel.jpg'),
+		link: '/projects/botoniel',
+	},
 ];
 
 export default projects;

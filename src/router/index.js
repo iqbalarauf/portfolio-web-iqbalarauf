@@ -124,7 +124,34 @@ const routes = [
 			title: 'Skill - Software QA',
 		},
 	},
-	
+	{
+		path: '/skills',
+		name: 'Skills',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/Skills.vue'
+			),
+		meta: {
+			title: 'IqbalARauf Skills',
+		},
+	},
+	{
+		path: '/projects/botoniel',
+		name: 'BotOniel',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/BotOniel.vue'
+			),
+		meta: {
+			title: 'Project - BotOniel',
+		},
+	},
 ];
 
 const router = createRouter({
