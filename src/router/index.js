@@ -110,6 +110,20 @@ const routes = [
 			title: 'Contact to IqbalARauf',
 		},
 	},
+	{
+		path: '/skills/software-qa',
+		name: 'Software QA',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/SoftwareQA.vue'
+			),
+		meta: {
+			title: 'Skill - Software QA',
+		},
+	},
 	
 ];
 
