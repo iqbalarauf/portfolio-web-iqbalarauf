@@ -41,22 +41,32 @@ export default {
 						],
 					},
 				],
-				projectDetailsHeading: 'Challenge',
+				projectDetailsHeading: 'Details Information',
 				projectDetails: [
 					{
 						id: 1,
 						details:
-							'Social Media-based COVID Tracker (SMCT) merupakan aplikasi yang dapat membantu seseorang untuk melacak dan mencatat riwayat perjalanan melalui postingan media sosialnya. Melalui informasi mengenai lokasi dan waktu postingan, pengguna dapat mengecek apakah pernah berkontak dengan pasien COVID-19 dan akan diberi peringatan jika pernah kontak erat dengan pasien COVID-19 yang berada di tempat dan waktu yang sama.',
+							'Pengujian merupakan salah satu tahapan penting dalam pengembangan sebuah sistem perangkat lunak, dimana pada tahap ini dilakukan evaluasi terhadap perangkat lunak yang akan digunakan. Hal tersebut dilakukan agar perangkat lunak yang dibangun sesuai dengan requirement yang diperlukan dan menghindari kesalahan pada program. Hal itulah merupakan bidang yang saya tekuni terkait bagaimana pengujian sebuah perangkat lunak dilakukan.',
 					},
 					{
 						id: 2,
 						details:
-							'Aplikasi akan mengumpulkan informasi berdasarkan postingan media sosial pengguna yang terhubung dengan aplikasi. Kemudian data lokasi dan waktu postingan akan dikirimkan dan dicocokkan oleh sistem. Jika pengguna melaporkan adanya gejala dan diagnosis COVID-19, data pengguna selama 14 hari akan dicek dan dicari pengguna lain yang mungkin berada di satu lokasi yang sama. Pengguna lain yang berada di lokasi dan waktu yang sama dengan pengguna pasien COVID-19 dalam waktu 14 hari akan mendapatkan notifikasi peringatan.',
+							'Saat mengambil studi saya di bidang Software Engineering, saya mengambil beberapa mata kuliah yang berkaitan dengan bidang Software Quality Assurance, yaitu Pengujian Perangkat Lunak (3 SKS dan Praktikum 1 SKS), Software Quality Assurance (3 SKS) dan Software Evolution and Configuration (3 SKS). Mata kuliah ini merangkum beberapa hal terkait dengan test plan dan organization, manual and automation testing, sampai penerapan CI/CD dalam GIT.',
 					},
 					{
 						id: 3,
 						details:
-							'SMCT direncanakan dibangun menggunakan basis Flutter dengan menggunakan API dari Social Media yang terhubung. Namun, seiring berjalannya waktu API dari sosial media yang terhubung saat ini mulai terbatas dan hanya beberapa yang bisa diterapkan menggunakan web scrapping.',
+							'Tools yang saya gunakan selama mengambil mata kuliah tersebut meliputi: Jira, Qase.io, JMeter, Selenium, Gherkin, dan Katalon Studio.',
+					},
+					{
+						id: 4,
+						details:
+							'Selain itu, untuk menguatkan pemahaman mengenai software QA, saya mengambil kursus di platform MySkill sebagai Quality Assurance. Dari kursus ini saya mendapatkan beberapa insight baru, khususnya mengenai pengujian mobile app, API testing dan database testing.',
+					},
+					{
+						id: 5,
+						details:
+							'Portfolio yang pernah saya kerjakan terkait dengan software QA tercantum di halaman ini, dan dilengkapi beberapa dokumen pendukung dan akses kepada aplikasi yang diuji (jika tersedia).',
 					},
 				],
 			},

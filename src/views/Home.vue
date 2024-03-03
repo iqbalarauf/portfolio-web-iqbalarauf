@@ -41,7 +41,7 @@ export default {
 				<p class="mt-2 text-md p-5">Kemampuan dalam pengembangan aplikasi mobile khususnya Flutter dan dapat
 					memahami Java. Memiliki keahlian dalam desain UI/UX dan integrasi API</p>
 				<div>
-					<router-link to="/" custom v-slot="{ navigate }">
+					<router-link to="/skills/mobile-dev" custom v-slot="{ navigate }">
 						<button class="border border-indigo-200 dark:border-ternary-dark shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-800 hover:text-white duration-100 m-5 p-3" @click="navigate" role="link">
 							Read More
 						</button>
@@ -90,7 +90,7 @@ export default {
 				<p class="mt-2 text-md p-5">Menguasai prinsip desain UI/UX untuk menciptakan antarmuka yang menarik dan
 					mudah digunakan, meningkatkan pengalaman pengguna secara efektif.</p>
 					<div>
-					<router-link to="/" custom v-slot="{ navigate }">
+					<router-link to="/skills/ui-ux" custom v-slot="{ navigate }">
 						<button class="border border-indigo-200 dark:border-ternary-dark shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-800 hover:text-white duration-100 m-5 p-3" @click="navigate" role="link">
 							Read More
 						</button>

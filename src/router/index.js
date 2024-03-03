@@ -152,6 +152,34 @@ const routes = [
 			title: 'Project - BotOniel',
 		},
 	},
+	{
+		path: '/skills/ui-ux',
+		name: 'UI/UX Research and Design',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/UI-UX.vue'
+			),
+		meta: {
+			title: 'Skill - UI/UX Research and Design',
+		},
+	},
+	{
+		path: '/skills/mobile-dev',
+		name: 'Mobile Application Development',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/MobileDev.vue'
+			),
+		meta: {
+			title: 'Skill - Mobile Application Development',
+		},
+	},
 ];
 
 const router = createRouter({
