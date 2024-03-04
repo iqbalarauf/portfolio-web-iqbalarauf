@@ -125,7 +125,7 @@ export default {
 				Quality Assurance Portfolio
 			</p>
 			<iframe class="w-full aspect-video"
-				src="https://docs.google.com/presentation/d/e/2PACX-1vRb1kSsbT9wB5_JlhWf5_VOo3ND_Z-zMGXFa37HfEE8SSiTOiJ6niyDB7Uir7RjHzwbJHJVjebMFr7d/embed?start=false&loop=false&delayms=3000"
+				src="https://docs.google.com/presentation/d/e/2PACX-1vS1CgAdy3wdCHh1Gx8B4TOX1P1RZKN4J78viBuauWmjhGZw_lEOSc_ZBalA6HRhBTa2oejPDR0EWSEO/embed?start=false&loop=false&delayms=3000"
 				allowfullscreen="true" mozallowfullscreen="true"
 				webkitallowfullscreen="true"></iframe>
 		</div>

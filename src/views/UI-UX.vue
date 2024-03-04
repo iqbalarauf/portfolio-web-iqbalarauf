@@ -116,6 +116,27 @@ export default {
 				allowfullscreen="true" mozallowfullscreen="true"
 				webkitallowfullscreen="true"></iframe>
 		</div>
+
+		<div class="w-full items-center mt-10 sm:mt-0">
+			<p class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7 mt-7">
+				Project: Social Media-based Covid Tracker
+			</p>
+			<iframe class="w-full aspect-video"
+				src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoqrpYhOjPdMyhOU4meH73Y%2FCovid_Tracker%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DB8zeDKPe0lkES1hK-1"
+				allowfullscreen="true" mozallowfullscreen="true"
+				webkitallowfullscreen="true"></iframe>
+		</div>
+<!-- 
+		<div class="w-full items-center mt-10 sm:mt-0">
+			<p class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7 mt-7">
+				Project: Superidol (on progress)
+			</p>
+			<iframe class="w-full aspect-video"
+				src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FOHkgAq8p7ByK3nvYIcdLz1%2F2SHOTGO!-Portfolio%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DhQozMtjWGujDRGus-1"
+				allowfullscreen="true" mozallowfullscreen="true"
+				webkitallowfullscreen="true"></iframe>
+		</div>
+-->
 	</div>
 </template>
 

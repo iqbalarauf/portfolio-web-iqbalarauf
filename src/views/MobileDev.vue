@@ -121,9 +121,8 @@ export default {
 		</div>
 		<div class="flex justify-center gap-5">
 				<a
-					href="#" target="_blank"
+					href="https://github.com/iqbalarauf/SocmedCovidTracker" target="_blank"
 					class="flex justify-center items-center w-96 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
-					aria-label="Drive Dokumen"
 				>
 					<i
 						data-feather="github"
@@ -136,10 +135,18 @@ export default {
 				>
 		</div>
 
-		<div class="w-full items-center mt-10 sm:mt-0">
-			<p class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7 mt-7">
+		<div class="w-full items-center mt-10 mb-10 sm:mt-0">
+			<p class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-2 mt-7">
 				Second Project: E-Government Report App (Presentation Only)
 			</p>
+			<span
+					class="font-general-medium ml-2 mb-10 leading-none text-primary-dark dark:text-primary-light text-center"
+					>Related to Programmer Intern at Dinas Komunikasi dan Informatika Kabupaten Jepara</span
+				>
+			<iframe class="w-full aspect-video"
+				src="https://docs.google.com/presentation/d/e/2PACX-1vRsNN09gCIQ_RAqGLBxNaWT127Z-zuMPmVq-Fy_i2no9SfetECy8TnNZzzgV7DONkXukED52-Exm28C/embed?start=false&loop=false&delayms=3000"
+				allowfullscreen="true" mozallowfullscreen="true"
+				webkitallowfullscreen="true"></iframe>
 		</div>
 	</div>
 </template>

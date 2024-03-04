@@ -42,7 +42,7 @@ export default {
 					memahami Java. Memiliki keahlian dalam desain UI/UX dan integrasi API</p>
 				<div>
 					<router-link to="/skills/mobile-dev" custom v-slot="{ navigate }">
-						<button class="border border-indigo-200 dark:border-ternary-dark shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-800 hover:text-white duration-100 m-5 p-3" @click="navigate" role="link">
+						<button class="border border-indigo-200 dark:border-ternary-dark shadow-lg rounded-lg bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 text-white duration-100 m-5 p-3" @click="navigate" role="link">
 							Read More
 						</button>
 					</router-link>
@@ -67,7 +67,7 @@ export default {
 					kemampuan menguji, mengidentifikasi bug, dan memastikan kualitas aplikasi.</p>
 					<div>
 					<router-link to="/skills/software-qa" custom v-slot="{ navigate }">
-						<button class="border border-indigo-200 dark:border-ternary-dark shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-800 hover:text-white duration-100 m-5 p-3" @click="navigate" role="link">
+						<button class="border border-indigo-200 dark:border-ternary-dark shadow-lg rounded-lg bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 text-white duration-100 m-5 p-3" @click="navigate" role="link">
 							Read More
 						</button>
 					</router-link>
@@ -91,7 +91,7 @@ export default {
 					mudah digunakan, meningkatkan pengalaman pengguna secara efektif.</p>
 					<div>
 					<router-link to="/skills/ui-ux" custom v-slot="{ navigate }">
-						<button class="border border-indigo-200 dark:border-ternary-dark shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-800 hover:text-white duration-100 m-5 p-3" @click="navigate" role="link">
+						<button class="border border-indigo-200 dark:border-ternary-dark shadow-lg rounded-lg bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 text-white duration-100 m-5 p-3" @click="navigate" role="link">
 							Read More
 						</button>
 					</router-link>

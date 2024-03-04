@@ -38,7 +38,7 @@
                 <div>
                     <router-link to="/skills/mobile-dev" custom v-slot="{ navigate }">
                         <button
-                            class="border border-indigo-200 dark:border-ternary-dark shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-800 hover:text-white duration-100 m-5 p-3"
+                            class="border border-indigo-200 dark:border-ternary-dark shadow-lg rounded-lg bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 text-white duration-100 m-5 p-3"
                             @click="navigate" role="link">
                             Read More
                         </button>
@@ -65,7 +65,7 @@
                 <div>
                     <router-link to="/skills/software-qa" custom v-slot="{ navigate }">
                         <button
-                            class="border border-indigo-200 dark:border-ternary-dark shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-800 hover:text-white duration-100 m-5 p-3"
+                            class="border border-indigo-200 dark:border-ternary-dark shadow-lg rounded-lg bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 text-white duration-100 m-5 p-3"
                             @click="navigate" role="link">
                             Read More
                         </button>
@@ -92,7 +92,7 @@
                 <div>
                     <router-link to="/skills/ui-ux" custom v-slot="{ navigate }">
                         <button
-                            class="border border-indigo-200 dark:border-ternary-dark shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-800 hover:text-white duration-100 m-5 p-3"
+                            class="border border-indigo-200 dark:border-ternary-dark shadow-lg rounded-lg bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 text-white duration-100 m-5 p-3"
                             @click="navigate" role="link">
                             Read More
                         </button>
@@ -111,7 +111,7 @@
                 <div>
                     <router-link to="/" custom v-slot="{ navigate }">
                         <button
-                            class="border border-indigo-200 dark:border-ternary-dark shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-800 hover:text-white duration-100 m-5 p-3"
+                            class="border border-indigo-200 dark:border-ternary-dark shadow-lg rounded-lg bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 text-white duration-100 m-5 p-3"
                             @click="navigate" role="link">
                             Read More
                         </button>
@@ -127,9 +127,9 @@
                 </div>
                 <p class="mt-2 text-md p-5">Mahir dalam content writing dan jurnalistik, dengan kemampuan menyampaikan cerita yang informatif, menarik, dan relevan dengan gaya penulisan yang tepat.</p>
                 <div>
-                    <router-link to="#" custom v-slot="{ navigate }">
+                    <router-link to="/skills/content-writing" custom v-slot="{ navigate }">
                         <button
-                            class="border border-indigo-200 dark:border-ternary-dark shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-800 hover:text-white duration-100 m-5 p-3"
+                            class="border border-indigo-200 dark:border-ternary-dark shadow-lg rounded-lg bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 text-white duration-100 m-5 p-3"
                             @click="navigate" role="link">
                             Read More
                         </button>
