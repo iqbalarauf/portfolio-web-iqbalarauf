@@ -22,7 +22,7 @@
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-10 sm:gap-10">
             <div
-                class="h-84 border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-secondary-light dark:bg-ternary-dark text-gray-500 dark:text-white">
+                class="md:mt-10 h-84 border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-secondary-light dark:bg-ternary-dark text-gray-500 dark:text-white">
                 <div class="flex flex-row justify-center">
                     <svg class="w-12 ml-8 items-center dark:fill-white" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24" id="mobile">
@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div
-                class="border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-secondary-light dark:bg-ternary-dark text-gray-500 dark:text-white">
+                class="mt-10 border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-secondary-light dark:bg-ternary-dark text-gray-500 dark:text-white">
                 <div class="flex flex-row justify-center">
                     <svg class="w-12 ml-8 items-center dark:fill-white" xmlns="http://www.w3.org/2000/svg"
                         enable-background="new 0 0 24 24" viewBox="0 0 24 24" id="task-list">
@@ -73,7 +73,7 @@
                 </div>
             </div>
             <div
-                class="border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-secondary-light dark:bg-ternary-dark text-gray-500 dark:text-white">
+                class="mt-10 border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-secondary-light dark:bg-ternary-dark text-gray-500 dark:text-white">
                 <div class="flex flex-row justify-center">
                     <svg class="w-12 ml-8 items-center dark:fill-white" xmlns="http://www.w3.org/2000/svg"
                         data-name="User Interface" viewBox="0 0 48 48" id="user-interface">
@@ -102,7 +102,7 @@
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-10 sm:gap-10 align-center">
             <div
-                class="h-84 align-center border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-secondary-light dark:bg-ternary-dark text-gray-500 dark:text-white">
+                class="md:mt-10 h-84 align-center border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-secondary-light dark:bg-ternary-dark text-gray-500 dark:text-white">
                 <div class="flex flex-row justify-center">
                     <svg class="w-12 ml-8 items-center dark:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="wordpress"><path d="M8 0C3.589 0 0 3.589 0 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8zm0 1a6.95 6.95 0 0 1 3.828 1.147c-.383.213-.738.661-.738 1.613 0 .506.345 1.093.744 1.773.479.816 1.073 1.831.924 2.564-.164.485-.58 1.586-1.031 2.761L9.66 4.918c.042-.011.089-.018.129-.031a.5.5 0 1 0-.317-.948c-.426.142-1.197.139-1.66.138h-.278c-.46.001-1.234.004-1.66-.138a.5.5 0 0 0-.315.948c.211.071.46.109.714.137l1.23 3.198-1.163 2.934L4.353 4.94c.073-.017.151-.03.218-.053a.499.499 0 1 0-.316-.948c-.425.142-1.198.138-1.661.138h-.137c-.09 0-.164-.007-.24-.013A6.994 6.994 0 0 1 8 1zM1 8c0-.786.136-1.54.376-2.246l3.068 8.265C2.387 12.798 1 10.561 1 8zm5.009 6.708L8.033 9.6l1.964 5.107A7.004 7.004 0 0 1 8 15a7.003 7.003 0 0 1-1.991-.292zm5.57-.704c.648-1.661 1.764-4.538 2.099-5.511l.013.004a.91.91 0 0 0 .039-.153c.113-.314.209-.601.286-.843.247-.781.404-1.468.486-2.076C14.82 6.223 15 7.09 15 8a6.994 6.994 0 0 1-3.421 6.004z"></path></svg>
                     <h3 class="font-general-semibold text-xl font-semibold mt-2 mb-3 px-4">Wordpress Development</h3>
@@ -119,7 +119,7 @@
                 </div>
             </div>
             <div
-                class="border align-center border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-secondary-light dark:bg-ternary-dark text-gray-500 dark:text-white">
+                class="mt-10 border align-center border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-secondary-light dark:bg-ternary-dark text-gray-500 dark:text-white">
                 <div class="flex flex-row justify-center">
                     <svg class="w-12 ml-8 items-center dark:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" id="news"><path d="M9 13H1v31c0 2.757 2.243 5 5 5h38c2.757 0 5-2.243 5-5V1H9v12zM3 44V15h6v29c0 1.654-1.346 3-3 3s-3-1.346-3-3zm8-41h36v41c0 1.654-1.346 3-3 3H9.998c.03-.039.051-.084.079-.124.057-.081.107-.166.159-.251a4.887 4.887 0 0 0 .599-1.418c.023-.094.052-.184.07-.28.058-.301.095-.609.095-.927V3z"></path><path d="M15 8h28v2H15zM19 13h20v2H19zM31 21h12v2H31zM31 26h12v2H31zM27 21H15v12h12V21zm-2 10h-8v-8h8v8zM31 31h12v2H31zM15 36h12v2H15zM31 36h12v2H31zM15 41h12v2H15zM31 41h12v2H31z"></path></svg>
                     <h3 class="font-general-semibold text-xl font-semibold mt-2 mb-3 px-4">News and Content Writing

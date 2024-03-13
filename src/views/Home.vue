@@ -27,7 +27,7 @@ export default {
 		</div>
 		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-10 sm:gap-10">
 			<div
-				class="h-84 border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-secondary-light dark:bg-ternary-dark text-gray-500 dark:text-white">
+				class="md:mt-10 h-84 border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-secondary-light dark:bg-ternary-dark text-gray-500 dark:text-white">
 				<div class="flex flex-row justify-center">
 					<svg class="w-12 ml-8 items-center dark:fill-white" xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 24 24" id="mobile">
@@ -49,7 +49,7 @@ export default {
 				</div>
 			</div>
 			<div
-				class="border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-secondary-light dark:bg-ternary-dark text-gray-500 dark:text-white">
+				class="md:mt-10 block border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-secondary-light dark:bg-ternary-dark text-gray-500 dark:text-white">
 				<div class="flex flex-row justify-center">
 					<svg class="w-12 ml-8 items-center dark:fill-white" xmlns="http://www.w3.org/2000/svg"
 						enable-background="new 0 0 24 24" viewBox="0 0 24 24" id="task-list">
@@ -74,7 +74,7 @@ export default {
 				</div>
 			</div>
 			<div
-				class="border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-secondary-light dark:bg-ternary-dark text-gray-500 dark:text-white">
+				class="md:mt-10 block border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-secondary-light dark:bg-ternary-dark text-gray-500 dark:text-white">
 				<div class="flex flex-row justify-center">
 					<svg class="w-12 ml-8 items-center dark:fill-white" xmlns="http://www.w3.org/2000/svg"
 						data-name="User Interface" viewBox="0 0 48 48" id="user-interface">
