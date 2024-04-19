@@ -114,7 +114,7 @@ export default {
 			<iframe class="w-full aspect-video"
 				src="https://openlibrary.telkomuniversity.ac.id/home/catalog/id/209119/slug/perancangan-ulang-antarmuka-website-proxsis-workspace-menggunakan-strategi-mobile-first-dalam-bentuk-buku-karya-ilmiah.html"
 				allowfullscreen="true" mozallowfullscreen="true"
-				webkitallowfullscreen="true"></iframe>
+				webkitallowfullscreen="true" allow="muted"></iframe>
 		</div>
 
 		<div class="w-full items-center mt-10 sm:mt-0">

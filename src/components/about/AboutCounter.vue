@@ -4,6 +4,14 @@ export default {
 		return {
 			experience: [
 				{
+					img: require('@/assets/images/experience/techno.jpg'),
+					company: 'Techno Infinity',
+					position: 'Software Quality Assurance',
+					startDate: 'April 2024',
+					endDate: 'now',
+					description: '-'
+				},
+				{
 					img: require('@/assets/images/experience/iflab.jpg'),
 					company: 'Informatics Lab Telkom University',
 					position: 'Asisten Praktikum - Pemrograman Berorientasi Objek',
@@ -41,13 +49,13 @@ export default {
 					img: require('@/assets/images/experience/telkomuniv.jpg'),
 					school: 'Telkom University',
 					major: 'Sarjana Rekayasa Perangkat Lunak (S.Si.Kom.)',
-					generation: '2019-2024',
+					generation: 'August 2019 - February 2024',
 				},
 				{
 					img: require('@/assets/images/experience/m2k.jpg'),
 					school: 'MA Negeri 2 Kudus',
-					major: 'Program Peminatan Matematika dan IPA',
-					generation: '2016-2019',
+					major: 'Program Peminatan Matematika dan Sains',
+					generation: 'July 2016 - April 2019',
 				},
 			]
 		}
@@ -66,7 +74,7 @@ export default {
 				<div class="flex flex-row mb-2">
 					<div><img
 							:src="job.img"
-							class="w-12 rounded-xl"
+							class="rounded-xl w-12"
 					/></div>	
 					<div>
 						<h2 class="text-start font-general-bold text-2xl text-secondary-dark dark:text-secondary-light mb-2 pt-2 pl-4">
